@@ -1,0 +1,57 @@
+{"level":"error","message":"401 - Invalid email or password - /api/auth/login - POST - ::1","timestamp":"2026-06-06 10:04:47"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets/invalid_id - GET - ::1","timestamp":"2026-06-06 10:04:47"}
+{"level":"error","message":"400 - Validation error: password: String must contain at least 6 character(s) - /api/auth/register - POST - ::1","timestamp":"2026-06-06 11:29:45"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:48:15"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:48:35"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:48:46"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:49:07"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:50:20"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:50:52"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:51:09"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:51:22"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:51:31"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:51:54"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:52:25"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:54:38"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:56:21"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:57:50"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:59:46"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 12:00:33"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 12:00:55"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 12:05:11"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 12:11:40"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 14:54:53"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 14:55:23"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:00:21"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:02:32"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:02:39"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:02:47"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:04:39"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:04:43"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:06:09"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:08:36"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:09:38"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:13:46"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:13:55"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:14:06"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:14:16"}
+{"level":"error","message":"401 - Invalid or expired token. Please log in again. - /api/analytics/dashboard - GET - ::1","timestamp":"2026-06-06 15:15:09"}
+{"level":"error","message":"401 - Invalid or expired token. Please log in again. - /api/analytics/dashboard - GET - ::1","timestamp":"2026-06-06 15:15:09"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:15:19"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:15:39"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:15:54"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:16:11"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:16:29"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:16:39"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:16:46"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:17:04"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:26:04"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:26:16"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:26:42"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:26:47"}
+{"level":"error","message":"401 - Invalid or expired token. Please log in again. - /api/chat/conversations - GET - ::1","timestamp":"2026-06-06 15:40:56"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 16:00:53"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 16:01:09"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 16:16:54"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 16:27:36"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 16:27:43"}

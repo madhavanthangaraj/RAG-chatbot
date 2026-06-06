@@ -1,0 +1,813 @@
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 09:54:32"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 09:54:32"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 09:57:19"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 09:57:19"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 09:58:48"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 09:58:48"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 09:59:12"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 09:59:12"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 10:00:49"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 10:00:49"}
+{"level":"warn","message":"DISCORD_TOKEN not provided in .env. Discord integration will run in mock mode.","timestamp":"2026-06-06 10:02:34"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 10:02:34"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 10:02:35"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 10:04:47"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 10:04:47"}
+{"level":"info","message":"::1 - GET /api-docs/ 200 3106 - 9.217 ms","timestamp":"2026-06-06 10:04:47"}
+{"level":"error","message":"401 - Invalid email or password - /api/auth/login - POST - ::1","timestamp":"2026-06-06 10:04:47"}
+{"level":"info","message":"::1 - POST /api/auth/login 401 306 - 7.464 ms","timestamp":"2026-06-06 10:04:47"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets/invalid_id - GET - ::1","timestamp":"2026-06-06 10:04:47"}
+{"level":"info","message":"::1 - GET /api/tickets/invalid_id 401 1292 - 3.460 ms","timestamp":"2026-06-06 10:04:47"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 10:14:53"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 10:14:53"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 11:28:51"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 11:28:51"}
+{"level":"error","message":"400 - Validation error: password: String must contain at least 6 character(s) - /api/auth/register - POST - ::1","timestamp":"2026-06-06 11:29:45"}
+{"level":"info","message":"::1 - POST /api/auth/register 400 1322 - 17.007 ms","timestamp":"2026-06-06 11:29:45"}
+{"level":"info","message":"::1 - POST /api/auth/register 201 673 - 255.274 ms","timestamp":"2026-06-06 11:29:55"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 42 - 10.214 ms","timestamp":"2026-06-06 11:30:02"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.705 ms","timestamp":"2026-06-06 11:30:02"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 56.238 ms","timestamp":"2026-06-06 11:30:06"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 186 - 6.159 ms","timestamp":"2026-06-06 11:30:06"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=4026551b-f284-4931-9136-7ace6ebb61e8 200 782 - 8.090 ms","timestamp":"2026-06-06 11:30:06"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 62.408 ms","timestamp":"2026-06-06 11:30:27"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 11:31:04"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 11:31:04"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 56.639 ms","timestamp":"2026-06-06 11:31:24"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 331 - 5.178 ms","timestamp":"2026-06-06 11:31:24"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=d4f1aaa1-329e-4c54-936a-6a030fd908c4 200 810 - 9.056 ms","timestamp":"2026-06-06 11:31:24"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 1850 - 6.807 ms","timestamp":"2026-06-06 11:31:56"}
+{"level":"info","message":"::1 - GET /api/tickets? 304 - - 5.820 ms","timestamp":"2026-06-06 11:31:56"}
+{"level":"info","message":"::1 - GET /api/tickets/57cee8d3-0845-417a-b515-7920bf63a555 200 1011 - 6.786 ms","timestamp":"2026-06-06 11:32:00"}
+{"level":"info","message":"::1 - POST /api/tickets/57cee8d3-0845-417a-b515-7920bf63a555/comments 201 111 - 26.402 ms","timestamp":"2026-06-06 11:32:11"}
+{"level":"info","message":"::1 - GET /api/tickets/57cee8d3-0845-417a-b515-7920bf63a555 200 1577 - 7.308 ms","timestamp":"2026-06-06 11:32:11"}
+{"level":"info","message":"::1 - POST /api/auth/logout 200 56 - 43.423 ms","timestamp":"2026-06-06 11:32:27"}
+{"level":"info","message":"::1 - POST /api/auth/register 201 704 - 190.063 ms","timestamp":"2026-06-06 11:33:00"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 42 - 10.068 ms","timestamp":"2026-06-06 11:33:05"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.712 ms","timestamp":"2026-06-06 11:33:05"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 54.505 ms","timestamp":"2026-06-06 11:33:08"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 186 - 4.400 ms","timestamp":"2026-06-06 11:33:08"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=351015ba-7359-4dde-a9a8-414181703a47 200 782 - 5.553 ms","timestamp":"2026-06-06 11:33:08"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 76.402 ms","timestamp":"2026-06-06 11:33:10"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 84.510 ms","timestamp":"2026-06-06 11:33:12"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 52.471 ms","timestamp":"2026-06-06 11:33:13"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 3427 - 7.159 ms","timestamp":"2026-06-06 11:33:18"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 8.547 ms","timestamp":"2026-06-06 11:33:18"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2504 - 25.345 ms","timestamp":"2026-06-06 11:33:18"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 34.428 ms","timestamp":"2026-06-06 11:33:18"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 10.305 ms","timestamp":"2026-06-06 11:33:25"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 11.504 ms","timestamp":"2026-06-06 11:33:25"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 10.450 ms","timestamp":"2026-06-06 11:33:42"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 7.427 ms","timestamp":"2026-06-06 11:33:42"}
+{"level":"info","message":"::1 - POST /api/auth/logout 200 56 - 24.693 ms","timestamp":"2026-06-06 11:33:45"}
+{"level":"info","message":"::1 - POST /api/auth/register 201 669 - 190.737 ms","timestamp":"2026-06-06 11:34:06"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 42 - 6.337 ms","timestamp":"2026-06-06 11:34:11"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 12.006 ms","timestamp":"2026-06-06 11:34:11"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 9049 - 5.585 ms","timestamp":"2026-06-06 11:34:14"}
+{"level":"info","message":"::1 - GET /api/tickets? 304 - - 4.840 ms","timestamp":"2026-06-06 11:34:14"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 10.621 ms","timestamp":"2026-06-06 11:34:17"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 9.565 ms","timestamp":"2026-06-06 11:34:17"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.305 ms","timestamp":"2026-06-06 11:38:29"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.922 ms","timestamp":"2026-06-06 11:38:29"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 115.883 ms","timestamp":"2026-06-06 11:38:32"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 186 - 4.675 ms","timestamp":"2026-06-06 11:38:32"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=dccfdbaa-8d47-4bf3-a89b-536768cbb714 200 820 - 5.560 ms","timestamp":"2026-06-06 11:38:32"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 82.421 ms","timestamp":"2026-06-06 11:39:00"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 62.907 ms","timestamp":"2026-06-06 11:39:54"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 69.599 ms","timestamp":"2026-06-06 11:39:56"}
+{"level":"info","message":"::1 - POST /api/chat/messages/80e3add3-057c-4513-8608-44f636c2520e/feedback 200 64 - 55.422 ms","timestamp":"2026-06-06 11:40:15"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 60.641 ms","timestamp":"2026-06-06 11:40:18"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 717 - 48.250 ms","timestamp":"2026-06-06 11:40:21"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 717 - 53.641 ms","timestamp":"2026-06-06 11:40:29"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 85.491 ms","timestamp":"2026-06-06 11:40:35"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 105.849 ms","timestamp":"2026-06-06 11:40:36"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 11:42:26"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 11:42:26"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 673 - 298.925 ms","timestamp":"2026-06-06 11:47:36"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 331 - 13.188 ms","timestamp":"2026-06-06 11:47:40"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.563 ms","timestamp":"2026-06-06 11:47:40"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:47:43"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=d4f1aaa1-329e-4c54-936a-6a030fd908c4 304 - - 6.176 ms","timestamp":"2026-06-06 11:47:59"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=4026551b-f284-4931-9136-7ace6ebb61e8 200 1543 - 9.853 ms","timestamp":"2026-06-06 11:48:07"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=d4f1aaa1-329e-4c54-936a-6a030fd908c4 304 - - 5.378 ms","timestamp":"2026-06-06 11:48:10"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 1850 - 12.110 ms","timestamp":"2026-06-06 11:48:13"}
+{"level":"info","message":"::1 - GET /api/tickets? 304 - - 6.183 ms","timestamp":"2026-06-06 11:48:13"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:48:15"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 7.699 ms","timestamp":"2026-06-06 11:48:15"}
+{"level":"info","message":"::1 - GET /api/tickets?priority=low 200 42 - 7.433 ms","timestamp":"2026-06-06 11:48:16"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 4.169 ms","timestamp":"2026-06-06 11:48:16"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 601 - 33454.619 ms","timestamp":"2026-06-06 11:48:16"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 476 - 4.296 ms","timestamp":"2026-06-06 11:48:16"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 13.755 ms","timestamp":"2026-06-06 11:48:22"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.919 ms","timestamp":"2026-06-06 11:48:22"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:48:25"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=3297efca-cbb3-4ad4-b800-57fa9dea80c4 200 812 - 6.617 ms","timestamp":"2026-06-06 11:48:30"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:48:35"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 4.728 ms","timestamp":"2026-06-06 11:48:35"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.997 ms","timestamp":"2026-06-06 11:48:36"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 601 - 10964.506 ms","timestamp":"2026-06-06 11:48:36"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 621 - 4.431 ms","timestamp":"2026-06-06 11:48:36"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=37df8b1b-3675-4a3f-a989-8351c94bf000 200 812 - 6.210 ms","timestamp":"2026-06-06 11:48:36"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:48:39"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:48:46"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 1.881 ms","timestamp":"2026-06-06 11:48:46"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.636 ms","timestamp":"2026-06-06 11:48:47"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 586 - 7545.488 ms","timestamp":"2026-06-06 11:48:47"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:48:58"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:49:07"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 1.679 ms","timestamp":"2026-06-06 11:49:07"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 1.467 ms","timestamp":"2026-06-06 11:49:08"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 601 - 9887.323 ms","timestamp":"2026-06-06 11:49:08"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:50:06"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:50:20"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 31.913 ms","timestamp":"2026-06-06 11:50:20"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 2.715 ms","timestamp":"2026-06-06 11:50:21"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 602 - 15287.894 ms","timestamp":"2026-06-06 11:50:21"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:50:40"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=3297efca-cbb3-4ad4-b800-57fa9dea80c4 304 - - 13.535 ms","timestamp":"2026-06-06 11:50:43"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=d4f1aaa1-329e-4c54-936a-6a030fd908c4 304 - - 5.119 ms","timestamp":"2026-06-06 11:50:44"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=4026551b-f284-4931-9136-7ace6ebb61e8 304 - - 8.431 ms","timestamp":"2026-06-06 11:50:45"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=37df8b1b-3675-4a3f-a989-8351c94bf000 200 3403 - 9.150 ms","timestamp":"2026-06-06 11:50:48"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:50:52"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 15.023 ms","timestamp":"2026-06-06 11:50:52"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 3.274 ms","timestamp":"2026-06-06 11:50:53"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 601 - 12259.928 ms","timestamp":"2026-06-06 11:50:53"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:51:00"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:51:09"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 1.885 ms","timestamp":"2026-06-06 11:51:09"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 1.136 ms","timestamp":"2026-06-06 11:51:11"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 602 - 10672.502 ms","timestamp":"2026-06-06 11:51:11"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:51:15"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:51:22"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 1.400 ms","timestamp":"2026-06-06 11:51:22"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.430 ms","timestamp":"2026-06-06 11:51:23"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 602 - 8280.872 ms","timestamp":"2026-06-06 11:51:23"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:51:25"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:51:31"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 1.793 ms","timestamp":"2026-06-06 11:51:31"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.864 ms","timestamp":"2026-06-06 11:51:32"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 602 - 7302.494 ms","timestamp":"2026-06-06 11:51:32"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:51:44"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:51:54"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 1.994 ms","timestamp":"2026-06-06 11:51:54"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.558 ms","timestamp":"2026-06-06 11:51:54"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 602 - 10548.093 ms","timestamp":"2026-06-06 11:51:54"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:52:15"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:52:25"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 1.942 ms","timestamp":"2026-06-06 11:52:25"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.466 ms","timestamp":"2026-06-06 11:52:25"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 602 - 10487.243 ms","timestamp":"2026-06-06 11:52:25"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:54:23"}
+{"level":"info","message":"::1 - POST /api/chat/messages/5e216f95-6434-4380-8fe2-3dc26d8a7815/feedback 200 64 - 79.640 ms","timestamp":"2026-06-06 11:54:38"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:54:38"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 4.601 ms","timestamp":"2026-06-06 11:54:38"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.974 ms","timestamp":"2026-06-06 11:54:40"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 586 - 16536.653 ms","timestamp":"2026-06-06 11:54:40"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:55:16"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 560 - 15562.557 ms","timestamp":"2026-06-06 11:55:31"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:56:09"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:56:21"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 11.226 ms","timestamp":"2026-06-06 11:56:21"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 4.401 ms","timestamp":"2026-06-06 11:56:22"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 586 - 12818.609 ms","timestamp":"2026-06-06 11:56:22"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:56:50"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 560 - 17865.294 ms","timestamp":"2026-06-06 11:57:08"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:57:15"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 560 - 6013.976 ms","timestamp":"2026-06-06 11:57:21"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:57:41"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:57:50"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 12.083 ms","timestamp":"2026-06-06 11:57:50"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 3.168 ms","timestamp":"2026-06-06 11:57:51"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 602 - 10045.459 ms","timestamp":"2026-06-06 11:57:51"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 11:59:03"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 11:59:03"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 669 - 249.006 ms","timestamp":"2026-06-06 11:59:25"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 186 - 24.530 ms","timestamp":"2026-06-06 11:59:31"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.793 ms","timestamp":"2026-06-06 11:59:31"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:59:35"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 11:59:46"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 3.767 ms","timestamp":"2026-06-06 11:59:46"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 3.822 ms","timestamp":"2026-06-06 11:59:48"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 602 - 12881.876 ms","timestamp":"2026-06-06 11:59:48"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 331 - 10.996 ms","timestamp":"2026-06-06 11:59:48"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=6f16dac0-f504-411d-864d-be2a4415fdcb 200 821 - 6.264 ms","timestamp":"2026-06-06 11:59:48"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 11:59:59"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 560 - 9479.247 ms","timestamp":"2026-06-06 12:00:08"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 12:00:20"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 12:00:33"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 2.737 ms","timestamp":"2026-06-06 12:00:33"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 1.395 ms","timestamp":"2026-06-06 12:00:34"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 601 - 14241.119 ms","timestamp":"2026-06-06 12:00:34"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 12:00:47"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 12:00:55"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 2.208 ms","timestamp":"2026-06-06 12:00:55"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.894 ms","timestamp":"2026-06-06 12:00:57"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 602 - 10108.108 ms","timestamp":"2026-06-06 12:00:57"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2708 - 22.777 ms","timestamp":"2026-06-06 12:01:40"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 11.635 ms","timestamp":"2026-06-06 12:01:40"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 3433 - 2.956 ms","timestamp":"2026-06-06 12:02:45"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 2.739 ms","timestamp":"2026-06-06 12:02:45"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 14.233 ms","timestamp":"2026-06-06 12:02:45"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 12.181 ms","timestamp":"2026-06-06 12:02:45"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 1.847 ms","timestamp":"2026-06-06 12:02:50"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 18.205 ms","timestamp":"2026-06-06 12:02:50"}
+{"level":"info","message":"::1 - GET /api/kb/articles/438f28fb-5c5c-43b8-bc61-4ad995f733e6/versions 200 452 - 7.034 ms","timestamp":"2026-06-06 12:03:02"}
+{"level":"info","message":"::1 - GET /api/kb/articles/438f28fb-5c5c-43b8-bc61-4ad995f733e6/versions 304 - - 6.062 ms","timestamp":"2026-06-06 12:03:03"}
+{"level":"info","message":"::1 - GET /api/kb/articles/51dcccaa-e007-4273-9a71-d013d39c7daf/versions 200 472 - 4.829 ms","timestamp":"2026-06-06 12:03:10"}
+{"level":"info","message":"::1 - GET /api/kb/articles/438f28fb-5c5c-43b8-bc61-4ad995f733e6/versions 304 - - 7.363 ms","timestamp":"2026-06-06 12:03:11"}
+{"level":"info","message":"::1 - GET /api/kb/articles/9537c04a-4bd6-4aa2-b001-d5596bbdad2a/versions 200 420 - 4.477 ms","timestamp":"2026-06-06 12:03:20"}
+{"level":"info","message":"::1 - PUT /api/kb/articles/9537c04a-4bd6-4aa2-b001-d5596bbdad2a 200 386 - 11.422 ms","timestamp":"2026-06-06 12:04:18"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 1.819 ms","timestamp":"2026-06-06 12:04:18"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 14.151 ms","timestamp":"2026-06-06 12:04:18"}
+{"level":"info","message":"::1 - GET /api/kb/articles/9537c04a-4bd6-4aa2-b001-d5596bbdad2a/versions 304 - - 11.986 ms","timestamp":"2026-06-06 12:04:18"}
+{"level":"info","message":"::1 - GET /api/kb/articles/6950b475-fa9b-4e7f-9684-dde342f458e3/versions 200 422 - 5.792 ms","timestamp":"2026-06-06 12:04:29"}
+{"level":"info","message":"::1 - PUT /api/kb/articles/6950b475-fa9b-4e7f-9684-dde342f458e3 200 388 - 9.136 ms","timestamp":"2026-06-06 12:04:38"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 2.613 ms","timestamp":"2026-06-06 12:04:38"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 20.184 ms","timestamp":"2026-06-06 12:04:38"}
+{"level":"info","message":"::1 - GET /api/kb/articles/6950b475-fa9b-4e7f-9684-dde342f458e3/versions 304 - - 9.901 ms","timestamp":"2026-06-06 12:04:38"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.200 ms","timestamp":"2026-06-06 12:04:51"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.653 ms","timestamp":"2026-06-06 12:04:51"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 12:04:53"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 12:05:11"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 3.122 ms","timestamp":"2026-06-06 12:05:11"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.909 ms","timestamp":"2026-06-06 12:05:12"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 602 - 19783.860 ms","timestamp":"2026-06-06 12:05:12"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 476 - 8.878 ms","timestamp":"2026-06-06 12:05:12"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=cfb90918-12e8-403c-bb8b-e53b28984eef 200 822 - 5.411 ms","timestamp":"2026-06-06 12:05:12"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 12:11:28"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 12:11:40"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 12.094 ms","timestamp":"2026-06-06 12:11:40"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.725 ms","timestamp":"2026-06-06 12:11:41"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 601 - 13287.808 ms","timestamp":"2026-06-06 12:11:41"}
+{"level":"info","message":"::1 - POST /api/auth/logout 200 56 - 65.776 ms","timestamp":"2026-06-06 12:12:17"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 14:39:26"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 14:39:26"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 704 - 97.112 ms","timestamp":"2026-06-06 14:40:18"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 2.619 ms","timestamp":"2026-06-06 14:40:19"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 2.364 ms","timestamp":"2026-06-06 14:40:19"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2708 - 12.577 ms","timestamp":"2026-06-06 14:40:19"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 5.866 ms","timestamp":"2026-06-06 14:40:19"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 0.885 ms","timestamp":"2026-06-06 14:40:31"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 1.316 ms","timestamp":"2026-06-06 14:40:31"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 4.040 ms","timestamp":"2026-06-06 14:40:31"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 6.127 ms","timestamp":"2026-06-06 14:40:31"}
+{"level":"info","message":"::1 - GET /api/kb/articles/438f28fb-5c5c-43b8-bc61-4ad995f733e6/versions 304 - - 2.911 ms","timestamp":"2026-06-06 14:40:40"}
+{"level":"info","message":"::1 - GET /api/kb/articles/438f28fb-5c5c-43b8-bc61-4ad995f733e6/versions 304 - - 2.415 ms","timestamp":"2026-06-06 14:40:41"}
+{"level":"info","message":"::1 - GET /api/kb/articles/438f28fb-5c5c-43b8-bc61-4ad995f733e6/versions 304 - - 2.178 ms","timestamp":"2026-06-06 14:40:43"}
+{"level":"info","message":"::1 - GET /api/kb/articles/438f28fb-5c5c-43b8-bc61-4ad995f733e6/versions 304 - - 2.581 ms","timestamp":"2026-06-06 14:40:44"}
+{"level":"info","message":"::1 - GET /api/kb/articles/438f28fb-5c5c-43b8-bc61-4ad995f733e6/versions 304 - - 2.370 ms","timestamp":"2026-06-06 14:40:45"}
+{"level":"info","message":"::1 - GET /api/kb/articles/d8b989af-298b-4f79-b197-16a95556ee6b/versions 200 413 - 1.969 ms","timestamp":"2026-06-06 14:40:47"}
+{"level":"info","message":"::1 - GET /api/kb/articles/dc74491c-878e-44c7-a4e0-84f1a8206fc1/versions 200 436 - 2.011 ms","timestamp":"2026-06-06 14:40:56"}
+{"level":"info","message":"::1 - GET /api/kb/articles/dc74491c-878e-44c7-a4e0-84f1a8206fc1/versions 304 - - 2.562 ms","timestamp":"2026-06-06 14:40:57"}
+{"level":"info","message":"::1 - GET /api/kb/articles/bac1ca3f-5fa2-4378-96bd-fd54b1f1de08/versions 200 471 - 2.077 ms","timestamp":"2026-06-06 14:41:04"}
+{"level":"info","message":"::1 - GET /api/kb/articles/51dcccaa-e007-4273-9a71-d013d39c7daf/versions 304 - - 2.092 ms","timestamp":"2026-06-06 14:41:05"}
+{"level":"info","message":"::1 - GET /api/kb/articles/bac1ca3f-5fa2-4378-96bd-fd54b1f1de08/versions 304 - - 2.323 ms","timestamp":"2026-06-06 14:42:00"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 0.786 ms","timestamp":"2026-06-06 14:42:23"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 0.693 ms","timestamp":"2026-06-06 14:42:23"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 4.453 ms","timestamp":"2026-06-06 14:42:23"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 3.602 ms","timestamp":"2026-06-06 14:42:23"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 0.844 ms","timestamp":"2026-06-06 14:43:26"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 0.547 ms","timestamp":"2026-06-06 14:43:26"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 3.301 ms","timestamp":"2026-06-06 14:43:26"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 3.677 ms","timestamp":"2026-06-06 14:43:26"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 186 - 2.016 ms","timestamp":"2026-06-06 14:43:29"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 2.288 ms","timestamp":"2026-06-06 14:43:29"}
+{"level":"info","message":"::1 - POST /api/auth/logout 200 56 - 4.999 ms","timestamp":"2026-06-06 14:43:56"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 669 - 126.607 ms","timestamp":"2026-06-06 14:48:46"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 3.003 ms","timestamp":"2026-06-06 14:48:48"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 1.191 ms","timestamp":"2026-06-06 14:48:48"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 10.658 ms","timestamp":"2026-06-06 14:48:48"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 6.664 ms","timestamp":"2026-06-06 14:48:48"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 14:53:00"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 14:53:00"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 14:53:06"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 14:53:06"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 3459 - 1.286 ms","timestamp":"2026-06-06 14:53:15"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2734 - 3.805 ms","timestamp":"2026-06-06 14:53:15"}
+{"level":"info","message":"::1 - GET /api/kb/articles/51dcccaa-e007-4273-9a71-d013d39c7daf/versions 304 - - 2.911 ms","timestamp":"2026-06-06 14:53:27"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 0.671 ms","timestamp":"2026-06-06 14:53:30"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 0.682 ms","timestamp":"2026-06-06 14:53:30"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 3.659 ms","timestamp":"2026-06-06 14:53:30"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 3.997 ms","timestamp":"2026-06-06 14:53:30"}
+{"level":"info","message":"::1 - GET /api/kb/articles/f7e9badc-145b-4c9e-a6ea-47737588c6ec/versions 200 422 - 2.597 ms","timestamp":"2026-06-06 14:53:51"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 476 - 3.717 ms","timestamp":"2026-06-06 14:54:50"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 3.442 ms","timestamp":"2026-06-06 14:54:50"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 14:54:52"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 14:54:53"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 1.408 ms","timestamp":"2026-06-06 14:54:53"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.756 ms","timestamp":"2026-06-06 14:54:53"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 549 - 629.998 ms","timestamp":"2026-06-06 14:54:53"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 621 - 1.613 ms","timestamp":"2026-06-06 14:54:53"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=6d5e96e7-7fbc-430e-8087-b4db8cd2c895 200 769 - 1.963 ms","timestamp":"2026-06-06 14:54:53"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 1.117 ms","timestamp":"2026-06-06 14:55:05"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 1.761 ms","timestamp":"2026-06-06 14:55:05"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2734 - 3.034 ms","timestamp":"2026-06-06 14:55:05"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 4.441 ms","timestamp":"2026-06-06 14:55:05"}
+{"level":"info","message":"::1 - GET /api/kb/articles/438f28fb-5c5c-43b8-bc61-4ad995f733e6/versions 304 - - 2.550 ms","timestamp":"2026-06-06 14:55:12"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 1.744 ms","timestamp":"2026-06-06 14:55:16"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 2.210 ms","timestamp":"2026-06-06 14:55:16"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 14:55:18"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 14:55:23"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 0.755 ms","timestamp":"2026-06-06 14:55:23"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.306 ms","timestamp":"2026-06-06 14:55:24"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 588 - 5656.672 ms","timestamp":"2026-06-06 14:55:24"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 766 - 1.668 ms","timestamp":"2026-06-06 14:55:24"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=a5a4de9e-fd8f-42e2-b30f-0963a5e75b39 200 807 - 1.735 ms","timestamp":"2026-06-06 14:55:24"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38019 - 3.079 ms","timestamp":"2026-06-06 14:59:37"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 1.835 ms","timestamp":"2026-06-06 14:59:37"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 3019 - 3.990 ms","timestamp":"2026-06-06 14:59:37"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 3.484 ms","timestamp":"2026-06-06 14:59:37"}
+{"level":"info","message":"::1 - GET /api/kb/articles/42b2b915-72b7-4c6d-810b-71d632f3c71a/versions 200 733 - 2.771 ms","timestamp":"2026-06-06 14:59:43"}
+{"level":"info","message":"::1 - GET /api/kb/articles/c595b580-0613-445c-8c82-62c469dab7b2/versions 200 973 - 1.942 ms","timestamp":"2026-06-06 15:00:15"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 1.603 ms","timestamp":"2026-06-06 15:00:19"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 1.886 ms","timestamp":"2026-06-06 15:00:19"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:00:21"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:00:21"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 0.765 ms","timestamp":"2026-06-06 15:00:21"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.176 ms","timestamp":"2026-06-06 15:00:22"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 549 - 553.676 ms","timestamp":"2026-06-06 15:00:22"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 911 - 2.012 ms","timestamp":"2026-06-06 15:00:22"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=f6dee184-d107-42ff-b6c5-f4b34dce2371 200 779 - 2.942 ms","timestamp":"2026-06-06 15:00:22"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:02:32"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 0.858 ms","timestamp":"2026-06-06 15:02:32"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.174 ms","timestamp":"2026-06-06 15:02:32"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:02:39"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 0.722 ms","timestamp":"2026-06-06 15:02:39"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.210 ms","timestamp":"2026-06-06 15:02:40"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:02:47"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 0.728 ms","timestamp":"2026-06-06 15:02:47"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.183 ms","timestamp":"2026-06-06 15:02:47"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:04:39"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 2.795 ms","timestamp":"2026-06-06 15:04:39"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.362 ms","timestamp":"2026-06-06 15:04:39"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:04:43"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 1.019 ms","timestamp":"2026-06-06 15:04:43"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.301 ms","timestamp":"2026-06-06 15:04:43"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:06:09"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 52.838 ms","timestamp":"2026-06-06 15:06:09"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 1.136 ms","timestamp":"2026-06-06 15:06:09"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:08:36"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 32.085 ms","timestamp":"2026-06-06 15:08:36"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 2.934 ms","timestamp":"2026-06-06 15:08:36"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:09:38"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 97.471 ms","timestamp":"2026-06-06 15:09:38"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 4.486 ms","timestamp":"2026-06-06 15:09:39"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:13:46"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 57.118 ms","timestamp":"2026-06-06 15:13:46"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 2.946 ms","timestamp":"2026-06-06 15:13:47"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:13:55"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 1.527 ms","timestamp":"2026-06-06 15:13:55"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 1.107 ms","timestamp":"2026-06-06 15:13:56"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:14:06"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 2.230 ms","timestamp":"2026-06-06 15:14:06"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.560 ms","timestamp":"2026-06-06 15:14:07"}
+{"level":"error","message":"401 - You are not logged in. Please log in to get access. - /api/tickets - POST - ::1","timestamp":"2026-06-06 15:14:16"}
+{"level":"info","message":"::1 - POST /api/tickets 401 1292 - 2.307 ms","timestamp":"2026-06-06 15:14:16"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.715 ms","timestamp":"2026-06-06 15:14:16"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 15:14:51"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 15:14:51"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38645 - 12.682 ms","timestamp":"2026-06-06 15:15:09"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 7.222 ms","timestamp":"2026-06-06 15:15:09"}
+{"level":"error","message":"401 - Invalid or expired token. Please log in again. - /api/analytics/dashboard - GET - ::1","timestamp":"2026-06-06 15:15:09"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 401 1278 - 14.085 ms","timestamp":"2026-06-06 15:15:09"}
+{"level":"error","message":"401 - Invalid or expired token. Please log in again. - /api/analytics/dashboard - GET - ::1","timestamp":"2026-06-06 15:15:09"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 401 1278 - 10.373 ms","timestamp":"2026-06-06 15:15:09"}
+{"level":"info","message":"::1 - POST /api/auth/refresh 200 669 - 31.765 ms","timestamp":"2026-06-06 15:15:09"}
+{"level":"info","message":"::1 - POST /api/auth/refresh 200 669 - 32.982 ms","timestamp":"2026-06-06 15:15:09"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 3019 - 14.609 ms","timestamp":"2026-06-06 15:15:09"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 9.610 ms","timestamp":"2026-06-06 15:15:09"}
+{"level":"info","message":"::1 - GET /api/kb/articles/fade093e-a35e-433f-bc5d-fe3c40b12548/versions 200 654 - 61.403 ms","timestamp":"2026-06-06 15:15:12"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.900 ms","timestamp":"2026-06-06 15:15:16"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.973 ms","timestamp":"2026-06-06 15:15:16"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:15:19"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:15:19"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 15:15:19"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 995 - 154.496 ms","timestamp":"2026-06-06 15:15:19"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 1056 - 8.226 ms","timestamp":"2026-06-06 15:15:19"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=ddcc3ec5-479b-4e89-b196-6de3503b7322 200 1208 - 5.346 ms","timestamp":"2026-06-06 15:15:19"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.206 ms","timestamp":"2026-06-06 15:15:26"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.837 ms","timestamp":"2026-06-06 15:15:26"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38648 - 3.622 ms","timestamp":"2026-06-06 15:15:29"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 3.552 ms","timestamp":"2026-06-06 15:15:29"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 3004 - 7.216 ms","timestamp":"2026-06-06 15:15:29"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 11.659 ms","timestamp":"2026-06-06 15:15:29"}
+{"level":"info","message":"::1 - GET /api/kb/articles/33cc9a67-b1e1-4981-843d-7ade10794c39/versions 200 925 - 19.805 ms","timestamp":"2026-06-06 15:15:32"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.339 ms","timestamp":"2026-06-06 15:15:37"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.979 ms","timestamp":"2026-06-06 15:15:37"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:15:39"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:15:39"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 15:15:39"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1297 - 56.878 ms","timestamp":"2026-06-06 15:15:39"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 1201 - 5.242 ms","timestamp":"2026-06-06 15:15:39"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=445c3e1c-170a-44d6-b780-0e6f53a70517 200 1510 - 4.802 ms","timestamp":"2026-06-06 15:15:39"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:15:54"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:15:54"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 15:15:54"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 127.260 ms","timestamp":"2026-06-06 15:15:54"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:16:11"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:16:11"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 15:16:11"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 100.535 ms","timestamp":"2026-06-06 15:16:11"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:16:29"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:16:29"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 15:16:29"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 108.046 ms","timestamp":"2026-06-06 15:16:29"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:16:39"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:16:39"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 15:16:39"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 128.635 ms","timestamp":"2026-06-06 15:16:39"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.848 ms","timestamp":"2026-06-06 15:16:44"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 3.140 ms","timestamp":"2026-06-06 15:16:44"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:16:46"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:16:46"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 15:16:46"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1297 - 54.476 ms","timestamp":"2026-06-06 15:16:46"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 1346 - 6.773 ms","timestamp":"2026-06-06 15:16:46"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=76427758-2c16-485e-863f-2a2c06c31dfa 200 1510 - 4.497 ms","timestamp":"2026-06-06 15:16:46"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38651 - 3.666 ms","timestamp":"2026-06-06 15:16:50"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 4.256 ms","timestamp":"2026-06-06 15:16:50"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2895 - 8.493 ms","timestamp":"2026-06-06 15:16:50"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 8.799 ms","timestamp":"2026-06-06 15:16:50"}
+{"level":"info","message":"::1 - GET /api/kb/articles/86b5763f-1b86-463d-a1f4-ac470fe72f65/versions 200 816 - 60.847 ms","timestamp":"2026-06-06 15:16:55"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.126 ms","timestamp":"2026-06-06 15:17:00"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 9.256 ms","timestamp":"2026-06-06 15:17:00"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=76427758-2c16-485e-863f-2a2c06c31dfa 304 - - 3.877 ms","timestamp":"2026-06-06 15:17:01"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:17:04"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:17:04"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 15:17:04"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1206 - 52.235 ms","timestamp":"2026-06-06 15:17:04"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=445c3e1c-170a-44d6-b780-0e6f53a70517 200 4569 - 4.862 ms","timestamp":"2026-06-06 15:18:41"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 15891 - 6.172 ms","timestamp":"2026-06-06 15:23:00"}
+{"level":"info","message":"::1 - GET /api/tickets? 304 - - 3.465 ms","timestamp":"2026-06-06 15:23:00"}
+{"level":"info","message":"::1 - GET /api/tickets/bf220683-d223-4388-bb31-e80a5d262455 200 2281 - 17.768 ms","timestamp":"2026-06-06 15:23:12"}
+{"level":"info","message":"::1 - GET /api/tickets/1f7779f1-0f1f-478f-8fe8-d5c3fa1d836b 200 1036 - 6.089 ms","timestamp":"2026-06-06 15:23:15"}
+{"level":"info","message":"::1 - GET /api/tickets/bb5c01b9-bb73-42b6-9175-2c573aae4cd1 200 1020 - 21.631 ms","timestamp":"2026-06-06 15:23:18"}
+{"level":"info","message":"::1 - GET /api/tickets?priority=low 200 1128 - 7.780 ms","timestamp":"2026-06-06 15:23:23"}
+{"level":"info","message":"::1 - GET /api/tickets?priority=high 200 607 - 11.199 ms","timestamp":"2026-06-06 15:23:26"}
+{"level":"info","message":"::1 - GET /api/tickets/109db018-cd66-4393-9b85-734630057c1b 200 1006 - 6.829 ms","timestamp":"2026-06-06 15:23:27"}
+{"level":"info","message":"::1 - GET /api/tickets?status=open&priority=high 200 607 - 4.349 ms","timestamp":"2026-06-06 15:23:30"}
+{"level":"info","message":"::1 - GET /api/tickets/109db018-cd66-4393-9b85-734630057c1b 304 - - 11.674 ms","timestamp":"2026-06-06 15:23:30"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2900 - 10.034 ms","timestamp":"2026-06-06 15:23:44"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 11.997 ms","timestamp":"2026-06-06 15:23:44"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 15:25:20"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 15:25:20"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 1346 - 18.534 ms","timestamp":"2026-06-06 15:25:47"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.378 ms","timestamp":"2026-06-06 15:25:47"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=76427758-2c16-485e-863f-2a2c06c31dfa 200 2900 - 5.813 ms","timestamp":"2026-06-06 15:25:51"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:26:03"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:26:04"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 15:26:04"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 227.995 ms","timestamp":"2026-06-06 15:26:04"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:26:16"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:26:16"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 15:26:16"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 86.336 ms","timestamp":"2026-06-06 15:26:16"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38654 - 3.898 ms","timestamp":"2026-06-06 15:26:27"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 3.361 ms","timestamp":"2026-06-06 15:26:27"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2906 - 12.634 ms","timestamp":"2026-06-06 15:26:27"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 11.924 ms","timestamp":"2026-06-06 15:26:27"}
+{"level":"info","message":"::1 - GET /api/kb/articles/c595b580-0613-445c-8c82-62c469dab7b2/versions 304 - - 6.806 ms","timestamp":"2026-06-06 15:26:31"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.770 ms","timestamp":"2026-06-06 15:26:37"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.244 ms","timestamp":"2026-06-06 15:26:37"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=76427758-2c16-485e-863f-2a2c06c31dfa 200 4448 - 14.315 ms","timestamp":"2026-06-06 15:26:39"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:26:42"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:26:42"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 15:26:42"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1335 - 74.714 ms","timestamp":"2026-06-06 15:26:42"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:26:47"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 15:26:47"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 15:26:47"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 589 - 150.334 ms","timestamp":"2026-06-06 15:26:47"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 15:40:17"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 15:40:17"}
+{"level":"error","message":"401 - Invalid or expired token. Please log in again. - /api/chat/conversations - GET - ::1","timestamp":"2026-06-06 15:40:56"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 401 1282 - 23.176 ms","timestamp":"2026-06-06 15:40:56"}
+{"level":"info","message":"::1 - POST /api/auth/refresh 200 669 - 26.495 ms","timestamp":"2026-06-06 15:40:57"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.554 ms","timestamp":"2026-06-06 15:40:57"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 15:41:12"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 15:41:12"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 15:41:32"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 15:41:32"}
+{"level":"info","message":"Connected to SQLite database at chatbot.sqlite","timestamp":"2026-06-06 15:41:42"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 15:41:42"}
+{"level":"info","message":"Connected to SQLite database at ../chatbot.sqlite","timestamp":"2026-06-06 15:42:08"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 15:42:08"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 15:42:29"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 15:42:29"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:42:52"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 1492 - 12.153 ms","timestamp":"2026-06-06 15:42:57"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.669 ms","timestamp":"2026-06-06 15:42:57"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=7be2f000-dbc7-4351-be57-058eac9a5d2d 200 285 - 4.749 ms","timestamp":"2026-06-06 15:42:59"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 797 - 15508.506 ms","timestamp":"2026-06-06 15:43:07"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.314 ms","timestamp":"2026-06-06 15:43:07"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:43:09"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=76427758-2c16-485e-863f-2a2c06c31dfa 200 6746 - 3.957 ms","timestamp":"2026-06-06 15:43:12"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=7be2f000-dbc7-4351-be57-058eac9a5d2d 200 988 - 4.894 ms","timestamp":"2026-06-06 15:43:13"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1063 - 6438.555 ms","timestamp":"2026-06-06 15:43:16"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 1637 - 15.406 ms","timestamp":"2026-06-06 15:43:16"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=04498ec3-3c6f-4d2d-bd73-107b9c279286 200 1284 - 6.894 ms","timestamp":"2026-06-06 15:43:16"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=7be2f000-dbc7-4351-be57-058eac9a5d2d 304 - - 5.783 ms","timestamp":"2026-06-06 15:43:20"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:43:32"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=04498ec3-3c6f-4d2d-bd73-107b9c279286 304 - - 156.587 ms","timestamp":"2026-06-06 15:43:49"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=7be2f000-dbc7-4351-be57-058eac9a5d2d 200 1252 - 38.234 ms","timestamp":"2026-06-06 15:44:00"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=04498ec3-3c6f-4d2d-bd73-107b9c279286 304 - - 4.631 ms","timestamp":"2026-06-06 15:44:02"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 620 - 34888.379 ms","timestamp":"2026-06-06 15:44:07"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:44:27"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=7be2f000-dbc7-4351-be57-058eac9a5d2d 200 1785 - 17.457 ms","timestamp":"2026-06-06 15:44:35"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1063 - 11747.769 ms","timestamp":"2026-06-06 15:44:38"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38663 - 119.960 ms","timestamp":"2026-06-06 15:45:57"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 17.099 ms","timestamp":"2026-06-06 15:45:57"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2912 - 80.702 ms","timestamp":"2026-06-06 15:45:57"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 12.892 ms","timestamp":"2026-06-06 15:45:57"}
+{"level":"info","message":"::1 - GET /api/kb/articles/0f69e362-61a3-4f77-8444-bb22fb43359c/versions 200 1017 - 19.184 ms","timestamp":"2026-06-06 15:46:02"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 11.914 ms","timestamp":"2026-06-06 15:46:08"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 8.281 ms","timestamp":"2026-06-06 15:46:08"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:46:10"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 774 - 15367.269 ms","timestamp":"2026-06-06 15:46:25"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 1782 - 9.870 ms","timestamp":"2026-06-06 15:46:25"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=279cef44-ccbd-440b-a3c8-fe0df8a5357d 200 981 - 5.580 ms","timestamp":"2026-06-06 15:46:25"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:47:07"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 15:47:14"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 15:47:14"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:47:14"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1002 - 12997.086 ms","timestamp":"2026-06-06 15:47:27"}
+{"level":"info","message":"::1 - POST /api/tickets 201 633 - 180.104 ms","timestamp":"2026-06-06 15:51:00"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 3.201 ms","timestamp":"2026-06-06 15:51:01"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38666 - 113.053 ms","timestamp":"2026-06-06 15:52:02"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 11.753 ms","timestamp":"2026-06-06 15:52:02"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2915 - 107.122 ms","timestamp":"2026-06-06 15:52:02"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 13.806 ms","timestamp":"2026-06-06 15:52:02"}
+{"level":"info","message":"::1 - GET /api/kb/articles/b09368ea-cd9b-4770-b377-2ebbe043976e/versions 200 827 - 11.466 ms","timestamp":"2026-06-06 15:52:09"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 9.703 ms","timestamp":"2026-06-06 15:52:14"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 8.476 ms","timestamp":"2026-06-06 15:52:14"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:52:16"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=279cef44-ccbd-440b-a3c8-fe0df8a5357d 200 2465 - 11.219 ms","timestamp":"2026-06-06 15:52:25"}
+{"level":"info","message":"::1 - POST /api/chat/message - - - - ms","timestamp":"2026-06-06 15:52:31"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 1927 - 6.563 ms","timestamp":"2026-06-06 15:52:35"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:52:41"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 619 - 2891.955 ms","timestamp":"2026-06-06 15:52:44"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 2072 - 9.388 ms","timestamp":"2026-06-06 15:52:44"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=5b49d02e-7be4-4491-a4a7-199212413684 200 840 - 9.261 ms","timestamp":"2026-06-06 15:52:44"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38669 - 10.878 ms","timestamp":"2026-06-06 15:52:56"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 6.021 ms","timestamp":"2026-06-06 15:52:56"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2910 - 12.735 ms","timestamp":"2026-06-06 15:52:56"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 13.084 ms","timestamp":"2026-06-06 15:52:56"}
+{"level":"info","message":"::1 - GET /api/kb/articles/c595b580-0613-445c-8c82-62c469dab7b2/versions 304 - - 6.368 ms","timestamp":"2026-06-06 15:53:01"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 9.482 ms","timestamp":"2026-06-06 15:53:07"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.797 ms","timestamp":"2026-06-06 15:53:07"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:53:09"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=16ed3af8-15e4-427a-a19d-c27b0d8694ef 200 1392 - 118.389 ms","timestamp":"2026-06-06 15:53:36"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=5b49d02e-7be4-4491-a4a7-199212413684 304 - - 5.504 ms","timestamp":"2026-06-06 15:53:40"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1064 - 32768.497 ms","timestamp":"2026-06-06 15:53:41"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 2217 - 10.553 ms","timestamp":"2026-06-06 15:53:41"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=0c131702-9174-46b8-b438-03d0f2ebd008 200 1285 - 5.809 ms","timestamp":"2026-06-06 15:53:41"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38669 - 3.976 ms","timestamp":"2026-06-06 15:53:49"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 4.645 ms","timestamp":"2026-06-06 15:53:49"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2910 - 13.989 ms","timestamp":"2026-06-06 15:53:49"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 7.816 ms","timestamp":"2026-06-06 15:53:49"}
+{"level":"info","message":"::1 - GET /api/kb/articles/84ff4ebd-1042-4d4a-9a8b-2419dd7154bf/versions 200 851 - 5.425 ms","timestamp":"2026-06-06 15:53:52"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 10.898 ms","timestamp":"2026-06-06 15:53:56"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.639 ms","timestamp":"2026-06-06 15:53:56"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:53:59"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1137 - 12461.920 ms","timestamp":"2026-06-06 15:54:11"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 2362 - 13.457 ms","timestamp":"2026-06-06 15:54:11"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=f1b68fd8-7d3d-4903-b73c-be99fd2cc9f8 200 1358 - 5.755 ms","timestamp":"2026-06-06 15:54:11"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38672 - 9.672 ms","timestamp":"2026-06-06 15:54:32"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 9.015 ms","timestamp":"2026-06-06 15:54:33"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2906 - 24.988 ms","timestamp":"2026-06-06 15:54:33"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 16.625 ms","timestamp":"2026-06-06 15:54:33"}
+{"level":"info","message":"::1 - GET /api/kb/articles/654cc586-5435-4b20-8b8e-22b47562c8de/versions 200 727 - 8.080 ms","timestamp":"2026-06-06 15:54:36"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 12.152 ms","timestamp":"2026-06-06 15:54:41"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.958 ms","timestamp":"2026-06-06 15:54:41"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 15:54:43"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 823 - 19610.455 ms","timestamp":"2026-06-06 15:55:03"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 2507 - 44.685 ms","timestamp":"2026-06-06 15:55:03"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73682909-cad9-4ed2-86d6-3ce4713cfbe6 200 1044 - 7.157 ms","timestamp":"2026-06-06 15:55:03"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38675 - 17.514 ms","timestamp":"2026-06-06 15:55:31"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 4.649 ms","timestamp":"2026-06-06 15:55:31"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2911 - 17.863 ms","timestamp":"2026-06-06 15:55:31"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 14.538 ms","timestamp":"2026-06-06 15:55:31"}
+{"level":"info","message":"::1 - GET /api/kb/articles/33fb2bc1-015e-4d14-946d-8c79d7912ab5/versions 200 754 - 8.456 ms","timestamp":"2026-06-06 15:55:36"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 12.298 ms","timestamp":"2026-06-06 15:55:41"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.605 ms","timestamp":"2026-06-06 15:55:41"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73682909-cad9-4ed2-86d6-3ce4713cfbe6 304 - - 6.303 ms","timestamp":"2026-06-06 15:55:42"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 16:00:18"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 16:00:18"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 704 - 223.396 ms","timestamp":"2026-06-06 16:00:45"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 186 - 11.222 ms","timestamp":"2026-06-06 16:00:49"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.569 ms","timestamp":"2026-06-06 16:00:49"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:00:52"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 16:00:53"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 16:00:53"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 645 - 183.782 ms","timestamp":"2026-06-06 16:00:53"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 331 - 4.077 ms","timestamp":"2026-06-06 16:00:53"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=e14d6bba-b6a2-4bff-9871-6039364ef354 200 822 - 7.112 ms","timestamp":"2026-06-06 16:00:53"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 4.262 ms","timestamp":"2026-06-06 16:01:00"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 2.805 ms","timestamp":"2026-06-06 16:01:00"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2628 - 10.839 ms","timestamp":"2026-06-06 16:01:00"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 9.762 ms","timestamp":"2026-06-06 16:01:00"}
+{"level":"info","message":"::1 - GET /api/kb/articles/fade093e-a35e-433f-bc5d-fe3c40b12548/versions 304 - - 7.372 ms","timestamp":"2026-06-06 16:01:03"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.189 ms","timestamp":"2026-06-06 16:01:06"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.314 ms","timestamp":"2026-06-06 16:01:06"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=e14d6bba-b6a2-4bff-9871-6039364ef354 304 - - 7.091 ms","timestamp":"2026-06-06 16:01:07"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:01:09"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 16:01:09"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 16:01:09"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 992 - 45.561 ms","timestamp":"2026-06-06 16:01:09"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:01:21"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1065 - 25550.675 ms","timestamp":"2026-06-06 16:01:47"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=e14d6bba-b6a2-4bff-9871-6039364ef354 200 3258 - 7.373 ms","timestamp":"2026-06-06 16:01:49"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 624 - 33.691 ms","timestamp":"2026-06-06 16:02:04"}
+{"level":"info","message":"::1 - GET /api/tickets? 304 - - 4.170 ms","timestamp":"2026-06-06 16:02:04"}
+{"level":"info","message":"::1 - GET /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 200 1029 - 11.193 ms","timestamp":"2026-06-06 16:02:06"}
+{"level":"info","message":"::1 - PUT /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 200 644 - 23.990 ms","timestamp":"2026-06-06 16:02:12"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 621 - 8.632 ms","timestamp":"2026-06-06 16:02:12"}
+{"level":"info","message":"::1 - GET /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 200 1333 - 18.776 ms","timestamp":"2026-06-06 16:02:12"}
+{"level":"info","message":"::1 - GET /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 304 - - 17.358 ms","timestamp":"2026-06-06 16:02:12"}
+{"level":"info","message":"::1 - PUT /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 200 647 - 18.176 ms","timestamp":"2026-06-06 16:02:19"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 624 - 5.771 ms","timestamp":"2026-06-06 16:02:19"}
+{"level":"info","message":"::1 - GET /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 200 1643 - 7.441 ms","timestamp":"2026-06-06 16:02:19"}
+{"level":"info","message":"::1 - GET /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 304 - - 6.963 ms","timestamp":"2026-06-06 16:02:19"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.080 ms","timestamp":"2026-06-06 16:02:42"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 9.162 ms","timestamp":"2026-06-06 16:02:42"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=e14d6bba-b6a2-4bff-9871-6039364ef354 304 - - 4.582 ms","timestamp":"2026-06-06 16:02:43"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:02:52"}
+{"level":"info","message":"::1 - POST /api/tickets 201 622 - 19.922 ms","timestamp":"2026-06-06 16:02:55"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 3.861 ms","timestamp":"2026-06-06 16:02:56"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 645 - 4481.737 ms","timestamp":"2026-06-06 16:02:56"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 1182 - 9.277 ms","timestamp":"2026-06-06 16:03:02"}
+{"level":"info","message":"::1 - GET /api/tickets? 304 - - 8.092 ms","timestamp":"2026-06-06 16:03:02"}
+{"level":"info","message":"::1 - GET /api/tickets/463b9b6e-2e41-4828-b3ba-f41509848bc4 200 1002 - 4.488 ms","timestamp":"2026-06-06 16:03:03"}
+{"level":"info","message":"::1 - PUT /api/tickets/463b9b6e-2e41-4828-b3ba-f41509848bc4 200 662 - 23.049 ms","timestamp":"2026-06-06 16:03:15"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 1222 - 4.082 ms","timestamp":"2026-06-06 16:03:15"}
+{"level":"info","message":"::1 - GET /api/tickets/463b9b6e-2e41-4828-b3ba-f41509848bc4 200 1383 - 5.760 ms","timestamp":"2026-06-06 16:03:15"}
+{"level":"info","message":"::1 - GET /api/tickets/463b9b6e-2e41-4828-b3ba-f41509848bc4 304 - - 7.949 ms","timestamp":"2026-06-06 16:03:15"}
+{"level":"info","message":"::1 - PUT /api/tickets/463b9b6e-2e41-4828-b3ba-f41509848bc4 200 622 - 22.522 ms","timestamp":"2026-06-06 16:03:19"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 1182 - 3.641 ms","timestamp":"2026-06-06 16:03:19"}
+{"level":"info","message":"::1 - GET /api/tickets/463b9b6e-2e41-4828-b3ba-f41509848bc4 200 1684 - 6.278 ms","timestamp":"2026-06-06 16:03:19"}
+{"level":"info","message":"::1 - GET /api/tickets/463b9b6e-2e41-4828-b3ba-f41509848bc4 304 - - 10.528 ms","timestamp":"2026-06-06 16:03:19"}
+{"level":"info","message":"::1 - GET /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 304 - - 15.486 ms","timestamp":"2026-06-06 16:04:48"}
+{"level":"info","message":"::1 - PUT /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 200 647 - 20.634 ms","timestamp":"2026-06-06 16:05:00"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 1182 - 4.657 ms","timestamp":"2026-06-06 16:05:00"}
+{"level":"info","message":"::1 - GET /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 200 1953 - 7.425 ms","timestamp":"2026-06-06 16:05:00"}
+{"level":"info","message":"::1 - GET /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 304 - - 24.154 ms","timestamp":"2026-06-06 16:05:00"}
+{"level":"info","message":"::1 - GET /api/tickets? 304 - - 8.668 ms","timestamp":"2026-06-06 16:05:55"}
+{"level":"info","message":"::1 - GET /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 304 - - 8.552 ms","timestamp":"2026-06-06 16:05:55"}
+{"level":"info","message":"::1 - GET /api/tickets/91cf66ae-b461-40ca-bace-0382efb1afd3 304 - - 6.442 ms","timestamp":"2026-06-06 16:05:55"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2700 - 15.637 ms","timestamp":"2026-06-06 16:06:13"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 7.123 ms","timestamp":"2026-06-06 16:06:13"}
+{"level":"info","message":"::1 - POST /api/auth/logout 200 56 - 13.790 ms","timestamp":"2026-06-06 16:10:17"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 669 - 201.902 ms","timestamp":"2026-06-06 16:13:57"}
+{"level":"info","message":"::1 - POST /api/auth/logout 200 56 - 66.212 ms","timestamp":"2026-06-06 16:14:29"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 669 - 199.231 ms","timestamp":"2026-06-06 16:14:44"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 16:16:13"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 16:16:13"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 669 - 235.643 ms","timestamp":"2026-06-06 16:16:41"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 2507 - 19.916 ms","timestamp":"2026-06-06 16:16:45"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 9.395 ms","timestamp":"2026-06-06 16:16:45"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73682909-cad9-4ed2-86d6-3ce4713cfbe6 304 - - 12.522 ms","timestamp":"2026-06-06 16:16:46"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:16:54"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 16:16:54"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 16:16:54"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1332 - 177.276 ms","timestamp":"2026-06-06 16:16:54"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 9.096 ms","timestamp":"2026-06-06 16:19:02"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 9.710 ms","timestamp":"2026-06-06 16:19:02"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.013 ms","timestamp":"2026-06-06 16:20:25"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.199 ms","timestamp":"2026-06-06 16:20:40"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.512 ms","timestamp":"2026-06-06 16:20:40"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.119 ms","timestamp":"2026-06-06 16:20:44"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 3.761 ms","timestamp":"2026-06-06 16:20:51"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.155 ms","timestamp":"2026-06-06 16:20:59"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 3.568 ms","timestamp":"2026-06-06 16:21:06"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 3.658 ms","timestamp":"2026-06-06 16:21:14"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 10.868 ms","timestamp":"2026-06-06 16:25:35"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 13.701 ms","timestamp":"2026-06-06 16:25:35"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.072 ms","timestamp":"2026-06-06 16:25:38"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=a5a4de9e-fd8f-42e2-b30f-0963a5e75b39 304 - - 8.702 ms","timestamp":"2026-06-06 16:25:45"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.004 ms","timestamp":"2026-06-06 16:25:47"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=a5a4de9e-fd8f-42e2-b30f-0963a5e75b39 304 - - 15.747 ms","timestamp":"2026-06-06 16:25:47"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=04498ec3-3c6f-4d2d-bd73-107b9c279286 200 2530 - 3.970 ms","timestamp":"2026-06-06 16:25:51"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:26:11"}
+{"level":"info","message":"::1 - POST /api/tickets 201 610 - 25.443 ms","timestamp":"2026-06-06 16:26:17"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 1.506 ms","timestamp":"2026-06-06 16:26:17"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 645 - 6943.133 ms","timestamp":"2026-06-06 16:26:18"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:26:27"}
+{"level":"info","message":"::1 - POST /api/tickets 201 632 - 26.153 ms","timestamp":"2026-06-06 16:26:30"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.759 ms","timestamp":"2026-06-06 16:26:30"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 645 - 3372.578 ms","timestamp":"2026-06-06 16:26:30"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 16:26:55"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 16:26:55"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 669 - 233.034 ms","timestamp":"2026-06-06 16:27:27"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 14.001 ms","timestamp":"2026-06-06 16:27:30"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.733 ms","timestamp":"2026-06-06 16:27:30"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:27:36"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 16:27:36"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 16:27:36"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1332 - 193.447 ms","timestamp":"2026-06-06 16:27:36"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 2652 - 5.215 ms","timestamp":"2026-06-06 16:27:36"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=fab6c1e6-12cb-4f78-b3b4-07711ce3fcc9 200 1537 - 5.079 ms","timestamp":"2026-06-06 16:27:36"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:27:43"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 16:27:43"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-06 16:27:43"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 645 - 120.060 ms","timestamp":"2026-06-06 16:27:43"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38675 - 4.118 ms","timestamp":"2026-06-06 16:27:53"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 5.296 ms","timestamp":"2026-06-06 16:27:53"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2684 - 12.987 ms","timestamp":"2026-06-06 16:27:53"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 9.319 ms","timestamp":"2026-06-06 16:27:53"}
+{"level":"info","message":"::1 - GET /api/kb/articles/548c971a-175e-431f-a803-4c699a32c4ff/versions 200 850 - 6.179 ms","timestamp":"2026-06-06 16:27:57"}
+{"level":"info","message":"::1 - GET /api/kb/articles/86b5763f-1b86-463d-a1f4-ac470fe72f65/versions 304 - - 4.516 ms","timestamp":"2026-06-06 16:27:59"}
+{"level":"info","message":"::1 - GET /api/kb/articles/c85a19c3-3fbe-4786-a696-2fac64013138/versions 200 759 - 38.714 ms","timestamp":"2026-06-06 16:28:05"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.995 ms","timestamp":"2026-06-06 16:28:09"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.132 ms","timestamp":"2026-06-06 16:28:09"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:28:13"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 806 - 19082.455 ms","timestamp":"2026-06-06 16:28:32"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 2797 - 7.285 ms","timestamp":"2026-06-06 16:28:32"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=60c64dfb-9ff2-4126-a055-8cead6a315f3 200 1027 - 4.857 ms","timestamp":"2026-06-06 16:28:32"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:29:00"}
+{"level":"info","message":"::1 - POST /api/tickets 201 678 - 35.019 ms","timestamp":"2026-06-06 16:29:04"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 2.584 ms","timestamp":"2026-06-06 16:29:05"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 645 - 4889.706 ms","timestamp":"2026-06-06 16:29:05"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38677 - 15.104 ms","timestamp":"2026-06-06 16:29:10"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 11.946 ms","timestamp":"2026-06-06 16:29:10"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2684 - 15.341 ms","timestamp":"2026-06-06 16:29:10"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 21.223 ms","timestamp":"2026-06-06 16:29:10"}
+{"level":"info","message":"::1 - GET /api/kb/articles/51451234-b315-4e76-a3f0-824dbeabbf9a/versions 200 762 - 5.621 ms","timestamp":"2026-06-06 16:29:14"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.803 ms","timestamp":"2026-06-06 16:29:19"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.826 ms","timestamp":"2026-06-06 16:29:19"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:29:22"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 982 - 11781.571 ms","timestamp":"2026-06-06 16:29:34"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 2942 - 7.494 ms","timestamp":"2026-06-06 16:29:34"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=b0e1adb9-abdb-4d48-a522-5fd3b065e64f 200 1203 - 4.591 ms","timestamp":"2026-06-06 16:29:34"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:29:51"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1015 - 9699.148 ms","timestamp":"2026-06-06 16:30:00"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 3507 - 8.426 ms","timestamp":"2026-06-06 16:30:07"}
+{"level":"info","message":"::1 - GET /api/tickets? 304 - - 6.537 ms","timestamp":"2026-06-06 16:30:07"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38680 - 11.349 ms","timestamp":"2026-06-06 16:30:12"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 5.172 ms","timestamp":"2026-06-06 16:30:12"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2675 - 10.425 ms","timestamp":"2026-06-06 16:30:12"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 9.403 ms","timestamp":"2026-06-06 16:30:12"}
+{"level":"info","message":"::1 - POST /api/auth/logout 200 56 - 20.513 ms","timestamp":"2026-06-06 16:30:29"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 673 - 245.190 ms","timestamp":"2026-06-06 16:31:31"}
+{"level":"info","message":"::1 - POST /api/auth/logout 200 56 - 16.275 ms","timestamp":"2026-06-06 16:31:54"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 669 - 179.306 ms","timestamp":"2026-06-06 16:33:09"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 15.158 ms","timestamp":"2026-06-06 16:33:12"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.076 ms","timestamp":"2026-06-06 16:33:12"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=b0e1adb9-abdb-4d48-a522-5fd3b065e64f 200 2401 - 11.283 ms","timestamp":"2026-06-06 16:33:13"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.580 ms","timestamp":"2026-06-06 16:34:02"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=b0e1adb9-abdb-4d48-a522-5fd3b065e64f 304 - - 8.497 ms","timestamp":"2026-06-06 16:34:02"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 9.930 ms","timestamp":"2026-06-06 16:37:55"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=b0e1adb9-abdb-4d48-a522-5fd3b065e64f 304 - - 8.118 ms","timestamp":"2026-06-06 16:37:55"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 8.143 ms","timestamp":"2026-06-06 16:38:00"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=b0e1adb9-abdb-4d48-a522-5fd3b065e64f 304 - - 8.293 ms","timestamp":"2026-06-06 16:38:00"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 2.810 ms","timestamp":"2026-06-06 16:38:07"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 3.841 ms","timestamp":"2026-06-06 16:38:07"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.875 ms","timestamp":"2026-06-06 16:38:28"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 16:41:43"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 16:41:43"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 669 - 232.608 ms","timestamp":"2026-06-06 16:42:12"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 10.673 ms","timestamp":"2026-06-06 16:42:15"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.504 ms","timestamp":"2026-06-06 16:42:15"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 19.954 ms","timestamp":"2026-06-06 16:42:18"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 10.846 ms","timestamp":"2026-06-06 16:42:18"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 22.888 ms","timestamp":"2026-06-06 16:42:28"}
+{"level":"info","message":"::1 - GET /api/tickets? 304 - - 6.535 ms","timestamp":"2026-06-06 16:42:32"}
+{"level":"info","message":"::1 - GET /api/tickets? 304 - - 8.248 ms","timestamp":"2026-06-06 16:42:32"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.412 ms","timestamp":"2026-06-06 16:44:04"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.126 ms","timestamp":"2026-06-06 16:44:04"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.118 ms","timestamp":"2026-06-06 16:44:10"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:44:22"}
+{"level":"info","message":"::1 - POST /api/tickets 201 610 - 90.608 ms","timestamp":"2026-06-06 16:44:26"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 2.803 ms","timestamp":"2026-06-06 16:44:26"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 645 - 5042.268 ms","timestamp":"2026-06-06 16:44:27"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 3087 - 4.043 ms","timestamp":"2026-06-06 16:44:27"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73060222-ed08-4996-81b6-b80fbc54ae3e 200 822 - 4.326 ms","timestamp":"2026-06-06 16:44:27"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.734 ms","timestamp":"2026-06-06 16:46:47"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73060222-ed08-4996-81b6-b80fbc54ae3e 304 - - 6.430 ms","timestamp":"2026-06-06 16:46:47"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 88.454 ms","timestamp":"2026-06-06 16:46:57"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73060222-ed08-4996-81b6-b80fbc54ae3e 304 - - 88.159 ms","timestamp":"2026-06-06 16:46:57"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 3.929 ms","timestamp":"2026-06-06 16:47:08"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 4.400 ms","timestamp":"2026-06-06 16:47:08"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.878 ms","timestamp":"2026-06-06 16:47:19"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73060222-ed08-4996-81b6-b80fbc54ae3e 304 - - 3.987 ms","timestamp":"2026-06-06 16:48:06"}
+{"level":"info","message":"::1 - PUT /api/chat/messages/a750c847-0a16-447b-9fed-d8aec94f7cd6 404 193 - 3.198 ms","timestamp":"2026-06-06 16:48:23"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73060222-ed08-4996-81b6-b80fbc54ae3e 304 - - 5.133 ms","timestamp":"2026-06-06 16:48:23"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 16:48:33"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 16:48:33"}
+{"level":"info","message":"::1 - PUT /api/chat/messages/a750c847-0a16-447b-9fed-d8aec94f7cd6 404 193 - 4.739 ms","timestamp":"2026-06-06 16:49:03"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73060222-ed08-4996-81b6-b80fbc54ae3e 304 - - 8.049 ms","timestamp":"2026-06-06 16:49:04"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:49:07"}
+{"level":"info","message":"::1 - POST /api/tickets 201 675 - 16.311 ms","timestamp":"2026-06-06 16:49:10"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 0.535 ms","timestamp":"2026-06-06 16:49:11"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 645 - 4608.020 ms","timestamp":"2026-06-06 16:49:11"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=b0e1adb9-abdb-4d48-a522-5fd3b065e64f 304 - - 3.804 ms","timestamp":"2026-06-06 16:49:17"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73060222-ed08-4996-81b6-b80fbc54ae3e 200 1648 - 4.988 ms","timestamp":"2026-06-06 16:49:20"}
+{"level":"info","message":"::1 - PUT /api/chat/messages/14c720da-1698-4915-9e0d-681f01028896 404 193 - 4.777 ms","timestamp":"2026-06-06 16:49:31"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73060222-ed08-4996-81b6-b80fbc54ae3e 304 - - 9.897 ms","timestamp":"2026-06-06 16:49:31"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\anti\\chatbot.sqlite","timestamp":"2026-06-06 16:50:16"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 16:50:16"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-06 16:50:16"}
+{"level":"info","message":"::1 - PUT /api/chat/messages/14c720da-1698-4915-9e0d-681f01028896 404 193 - 76.305 ms","timestamp":"2026-06-06 16:51:51"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73060222-ed08-4996-81b6-b80fbc54ae3e 304 - - 16.491 ms","timestamp":"2026-06-06 16:51:51"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.692 ms","timestamp":"2026-06-06 16:52:13"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 13.665 ms","timestamp":"2026-06-06 16:52:13"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=73060222-ed08-4996-81b6-b80fbc54ae3e 304 - - 5.952 ms","timestamp":"2026-06-06 16:52:46"}
