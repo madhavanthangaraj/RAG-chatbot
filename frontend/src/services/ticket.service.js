@@ -39,3 +39,11 @@ export const addComment = async (ticketId, comment) => {
   });
   return response;
 };
+
+export const deleteTicket = async (id) => {
+  const response = await apiRequest(`/tickets/${id}`, {
+    method: 'DELETE'
+  });
+  return response;
+};
+

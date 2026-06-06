@@ -117,6 +117,13 @@ class TicketService {
 
     return commentId;
   }
+
+  async deleteTicket(id) {
+    const ticket = await ticketRepository.findById(id);
+    if (!ticket) throw new NotFoundError('Ticket not found');
+    await ticketRepository.deleteTicket(id);
+  }
 }
 
 module.exports = new TicketService();
+

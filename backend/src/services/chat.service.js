@@ -85,7 +85,7 @@ class ChatService {
       }
 
       if (topArticle && localConfidence > 0.30) {
-        reply = `According to our guide "${topArticle.title}":\n\n${topArticle.content}\n\nHope this helps! Let me know if you need anything else.`;
+        reply = `According to our guide "${topArticle.title}":\n\n${topArticle.content}\n\nHope this helps! Let me know if you need anything else.\n\n🤖 *Response processed by local Ollama AI (Model: llama3.2)*`;
         confidenceScore = localConfidence; 
         citations = [
           {
@@ -132,7 +132,8 @@ class ChatService {
         ticketId = ticket.id;
         reply = "No relevant Knowledge Base article was found for your request.\n\n" +
                 "📝 A support ticket has been automatically created and assigned to the appropriate support team for further investigation. Our team will review your request and respond as soon as possible.\n\n" +
-                "Thank you for your patience.";
+                "Thank you for your patience.\n\n" +
+                "🤖 *Response processed by local Ollama AI (Model: llama3.2)*";
 
         await analyticsService.logEvent({
           eventType: 'ticket_escalation',

@@ -151,6 +151,12 @@ class TicketRepository {
     `;
     return await db.query(sql, [ticketId]);
   }
+
+  async deleteTicket(id) {
+    const sql = `DELETE FROM tickets WHERE id = ?`;
+    await db.run(sql, [id]);
+  }
 }
 
 module.exports = new TicketRepository();
+

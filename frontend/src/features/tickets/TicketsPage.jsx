@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
 import * as ticketService from '../../services/ticket.service';
-import { ArrowLeft, Plus, Search, User, Clock, AlertCircle, MessageSquare, ShieldAlert, RefreshCw, Send, History } from 'lucide-react';
+import { ArrowLeft, Plus, Search, User, Clock, AlertCircle, MessageSquare, ShieldAlert, RefreshCw, Send, History, Trash2 } from 'lucide-react';
 
 export default function TicketsPage() {
   const { user, loading } = useContext(AuthContext);
@@ -132,6 +132,22 @@ export default function TicketsPage() {
       setCreating(false);
     }
   };
+
+  const handleDeleteTicket = async (id) => {
+    if (!window.confirm('Are you sure you want to delete this support ticket? This action cannot be undone.')) {
+      return;
+    }
+
+    try {
+      await ticketService.deleteTicket(id);
+      setSelectedTicket(null);
+      setSelectedDetails(null);
+      await loadTickets();
+    } catch (err) {
+      console.error('Error deleting ticket:', err);
+    }
+  };
+
 
   const getPriorityStyle = (priority) => {
     switch (priority) {
@@ -298,14 +314,32 @@ export default function TicketsPage() {
                   </div>
                 </div>
 
-                <div style={{ display: 'flex', gap: '0.5rem' }}>
+                <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
                   <span style={{ padding: '0.35rem 0.75rem', borderRadius: '4px', textTransform: 'uppercase', fontSize: '0.75rem', fontWeight: 700, ...getPriorityStyle(selectedDetails.priority) }}>
                     {selectedDetails.priority}
                   </span>
                   <span style={{ padding: '0.35rem 0.75rem', borderRadius: '4px', textTransform: 'uppercase', fontSize: '0.75rem', fontWeight: 700, ...getStatusStyle(selectedDetails.status) }}>
                     {selectedDetails.status}
                   </span>
+                  {(user.role !== 'user' || selectedDetails.user_id === user.id) && (
+                    <button 
+                      onClick={() => handleDeleteTicket(selectedDetails.id)} 
+                      className="btn-danger"
+                      title="Delete Support Ticket"
+                      style={{ 
+                        padding: '0.35rem', 
+                        display: 'flex', 
+                        alignItems: 'center', 
+                        justifyContent: 'center', 
+                        borderRadius: 'var(--radius-input)',
+                        cursor: 'pointer' 
+                      }}
+                    >
+                      <Trash2 size={16} />
+                    </button>
+                  )}
                 </div>
+
               </div>
 
               <div>

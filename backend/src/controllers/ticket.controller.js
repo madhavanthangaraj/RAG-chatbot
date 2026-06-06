@@ -113,6 +113,26 @@ class TicketController {
       next(err);
     }
   }
+
+  async deleteTicket(req, res, next) {
+    try {
+      const details = await ticketService.getTicketDetails(req.params.id);
+      
+      // Access verify: User can delete their own ticket, support/admin can delete any
+      if (req.user.role === 'user' && details.user_id !== req.user.id) {
+        throw new ForbiddenError('You do not have access to delete this ticket');
+      }
+
+      await ticketService.deleteTicket(req.params.id);
+      res.status(200).json({
+        status: 'success',
+        message: 'Ticket deleted successfully'
+      });
+    } catch (err) {
+      next(err);
+    }
+  }
 }
 
 module.exports = new TicketController();
+

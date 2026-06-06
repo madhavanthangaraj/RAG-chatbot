@@ -13,5 +13,7 @@ router.get('/:id', ticketController.getTicketById);
 
 router.put('/:id', restrictTo('admin', 'support_agent'), validate(updateTicketSchema), ticketController.updateTicket);
 router.post('/:id/comments', validate(commentSchema), ticketController.createComment);
+router.delete('/:id', ticketController.deleteTicket);
 
 module.exports = router;
+

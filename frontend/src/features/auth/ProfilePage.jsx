@@ -147,7 +147,7 @@ export default function ProfilePage() {
             boxShadow: '0 0 15px var(--primary-color)'
           }}></div>
           <span style={{ fontSize: '1.25rem', fontWeight: 800, letterSpacing: '-0.02em', color: textColor, transition: 'color 0.3s ease' }}>
-            ERP Student Support Portal
+            Infinte Solution
           </span>
         </div>
 

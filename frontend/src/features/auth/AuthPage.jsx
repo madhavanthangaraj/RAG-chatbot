@@ -33,6 +33,7 @@ export default function AuthPage() {
     }
   };
 
+
   return (
     <div style={{ display: 'flex', minHeight: '100vh', justifyContent: 'center', alignItems: 'center', padding: '1rem' }}>
       <div className="glass-card animate-fade-in" style={{ width: '100%', maxWidth: '440px' }}>
@@ -128,6 +129,7 @@ export default function AuthPage() {
           </button>
         </div>
       </div>
+
     </div>
   );
 }

@@ -260,6 +260,7 @@ Answer:
                     
                     generation = await ollama_client.generate_chat_completion(messages, temperature=0.2)
                     reply = generation.get("content", "").strip()
+                    reply += f"\n\n🤖 *Response processed by local Ollama AI (Model: llama3.2)*"
                     
                     # Store citation reference
                     citations.append({
@@ -289,8 +290,20 @@ Answer:
         # Step 6: Escalation Decision
         if not is_relevant or confidence < self.confidence_threshold:
             escalated, ticket_id = await self._execute_escalation(query, user_id)
-            reply = "No relevant Knowledge Base article was found for your request."
+            
+            try:
+                messages = [
+                    {"role": "system", "content": "You are a polite customer support assistant. Tell the user you searched the Knowledge Base but could not find a matching guide for their query, and that a support ticket has been opened to resolve this. Keep the response to 1 or 2 sentences."},
+                    {"role": "user", "content": f"The user asked: '{query}'. Write a concise response explaining that no guide was found in the database and a ticket has been opened."}
+                ]
+                generation = await ollama_client.generate_chat_completion(messages, temperature=0.7)
+                ollama_reply = generation.get("content", "").strip()
+            except Exception as e:
+                ollama_reply = "No relevant Knowledge Base article was found for your request."
+
+            reply = ollama_reply
             reply += f"\n\n📝 A support ticket has been automatically created and assigned to the appropriate support team for further investigation. Our team will review your request and respond as soon as possible.\n\nThank you for your patience."
+            reply += f"\n\n🤖 *Response processed by local Ollama AI (Model: llama3.2)*"
             
             suggested_followups = [
                 "Track my escalated ticket status",

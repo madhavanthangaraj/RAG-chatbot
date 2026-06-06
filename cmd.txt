@@ -1,0 +1,28 @@
+🤖 1. Run Ollama
+powershell
+
+
+ollama run llama3.2
+🧠 2. Run AI Python Service (FastAPI)
+powershell
+
+
+cd C:\Users\HP\Desktop\antigravity\ai
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+⚙️ 3. Run Backend Service (Node.js)
+powershell
+
+
+cd C:\Users\HP\Desktop\antigravity\backend
+npm run dev
+💻 4. Run Frontend Application (Vite/React)
+powershell
+
+
+cd C:\Users\HP\Desktop\antigravity\frontend
+npm run dev
+🧪 5. Run All Tests (Pytest, Node, & Vitest)
+powershell
+
+
+python -m pytest testing; node testing/test_backend_happy_path.js; cd C:\Users\HP\Desktop\antigravity\frontend; npx vitest run --root=../ testing; cd ..

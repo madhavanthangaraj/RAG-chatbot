@@ -8,7 +8,6 @@ import ChatPage from './features/chat/ChatPage';
 import AnalyticsPage from './features/analytics/AnalyticsPage';
 import TicketsPage from './features/tickets/TicketsPage';
 import KnowledgeBasePage from './features/kb/KnowledgeBasePage';
-
 export default function App() {
   return (
     <ThemeProvider>
