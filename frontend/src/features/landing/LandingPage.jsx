@@ -113,7 +113,7 @@ export default function LandingPage() {
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent'
           }}>
-            KnowledgeBridge
+            KnowledgeBridge 
           </span>
         </div>
 

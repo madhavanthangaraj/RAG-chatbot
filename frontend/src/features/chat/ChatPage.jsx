@@ -732,17 +732,7 @@ export default function ChatPage() {
                     {/* Content text */}
                     <div style={{ fontSize: '0.95rem', lineHeight: '1.5', whiteSpace: 'pre-line' }}>{m.content}</div>
 
-                    {/* Tiny Timestamp */}
-                    <div style={{ 
-                      fontSize: '0.65rem', 
-                      color: textMuted, 
-                      textAlign: 'right', 
-                      marginTop: '0.4rem',
-                      opacity: 0.75,
-                      fontWeight: 500
-                    }}>
-                      {formatTime(m.created_at)}
-                    </div>
+
 
                     {/* Metadata elements: confidence score & feedback stars */}
                     {!isUser && m.id !== 'temp_ai' && (

@@ -17,7 +17,6 @@ test('Backend Fallback Search Happy Path', async (t) => {
     { id: '3', title: 'Instructions to Pay Student Fees', content: 'Online payment instructions for tuition fees and hostel bills.', effectiveness_score: 3.8 }
   ];
 
-  // Override listArticles to return mock data
   kbRepository.listArticles = async () => mockArticles;
 
   await t.test('Should match exact keywords in title with boost', async () => {
@@ -34,8 +33,7 @@ test('Backend Fallback Search Happy Path', async (t) => {
 
   await t.test('Should sort results by match score density and fallback to effectiveness score', async () => {
     const results = await kbRepository.searchArticles('hostel');
-    // "hostel" appears in content of both "Submitting Feedback & Suggestions" (effectiveness 5.0) and "Instructions to Pay Student Fees" (effectiveness 3.8)
-    // Since search scores are equal (1 point each), verify it sorts by effectiveness_score
+    
     assert.strictEqual(results.length >= 2, true);
     assert.strictEqual(results[0].title, 'Submitting Feedback & Suggestions');
     assert.strictEqual(results[1].title, 'Instructions to Pay Student Fees');
