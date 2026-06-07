@@ -1,0 +1,26 @@
+[
+  {
+    "id": "e5c7d8d2-1c23-4122-aa66-cdef4512b91c",
+    "title": "Submitting Feedback & Suggestions",
+    "content": "# Submitting Feedback & Suggestions\n\nWe value your input. To submit feedback regarding your classes, campus facilities, or ERP portal:\n1. Log in to your ERP Dashboard.\n2. Navigate to the **'Feedback & Survey'** tab on the left sidebar menu.\n3. Choose the type of feedback you wish to provide:\n   - *Academic Course Evaluation* (available end of each semester)\n   - *Campus Facilities & Mess Feedback*\n   - *ERP System Bug Reports / Suggestions*\n4. Fill out the rating stars and write down your comments.\n5. Click **'Submit Feedback'** to log your response.\n\nYour responses are used to improve campus operations. General feedback can be anonymous.",
+    "source_type": "markdown",
+    "source_path": null,
+    "checksum": "dfb211a7c5c2d665f8a0a0ffc3bf1e018652fbd1efb942f9a76d3bd62c2ee1ad",
+    "version": 1,
+    "effectiveness_score": 5.0,
+    "created_at": "2026-06-06T15:00:00.000Z",
+    "updated_at": "2026-06-06T15:00:00.000Z"
+  },
+  {
+    "id": "f8a9a0b1-3e45-4221-bb55-defa5678c12d",
+    "title": "Hostel Room Allotment Guide",
+    "content": "# Hostel Room Allotment Guide\n\nHostel room allotment occurs annually before the start of the autumn semester:\n1. Log in to the Hostel portal within the ERP system.\n2. Submit your preference form selecting room type (Single, Double, or Triple sharing).\n3. If applicable, enter the Roll Number of your preferred roommate.\n4. Pay the hostel booking advance fee to secure your slot.\n5. Allotments are run based on CGPA and reservation categories.\n6. Check the Hostel Allotment list published under **'Hostel Announcements'** to see your allotted Block and Room Number.",
+    "source_type": "markdown",
+    "source_path": null,
+    "checksum": "7e3b3a987d65fe5a6fef98e09f87c1baef876c123df9e67d8f9bc8e9102c34d1",
+    "version": 1,
+    "effectiveness_score": 4.5,
+    "created_at": "2026-06-06T15:00:00.000Z",
+    "updated_at": "2026-06-06T15:00:00.000Z"
+  }
+]

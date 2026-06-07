@@ -1,0 +1,17 @@
+{
+  "reply": "# Instructions to Pay Student Fees\n\nFollow these official instructions to pay your tuition, hostel, or examination fees online:\n1. Access the Student Portal and navigate to the **'Fee Payment Hub'**.\n2. Review your pending dues statement shown on the dashboard.\n3. Click on the **'Pay Outstanding Balance'** button.\n4. Select your preferred payment mode:\n   - *UPI* (Instant & No Transaction Charge)\n   - *Net Banking* (All major banks supported)\n   - *Credit/Debit Card* (1% transaction fee applies)\n5. Complete the payment gateway authorization.\n6. Once payment is processed, you will be redirected to download your **Official Fee Receipt** in PDF format.\n\n*Note:* Fees paid via NEFT/IMPS bank transfer may take up to 48 hours to reconcile. Always keep a copy of your receipt.\n\n🤖 *Response processed by local Ollama AI (Model: llama3.2)*",
+  "confidenceScore": 1.0,
+  "citations": [
+    {
+      "article_id": "b3f6d8d9-2d67-4632-aa78-dfdf3412b19d",
+      "title": "Instructions to Pay Student Fees",
+      "snippet": "# Instructions to Pay Student Fees\n\nFollow these official instructions to pay your tuition, hostel, or examination fees online:\n1. Access the Student Portal and navigate to the **'Fee Payment Hub'**..."
+    }
+  ],
+  "suggestedFollowups": [
+    "How long does it take for NEFT payments to reflect?",
+    "Can I download my fee receipt later?"
+  ],
+  "escalated": false,
+  "ticketId": null
+}

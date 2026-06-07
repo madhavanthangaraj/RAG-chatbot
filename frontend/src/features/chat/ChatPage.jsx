@@ -661,19 +661,6 @@ export default function ChatPage() {
               <p style={{ fontSize: '0.75rem', color: 'var(--success-color)', display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
                 <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--success-color)' }}></span> 
                 <span>AI service active</span>
-                <span style={{ color: textMuted }}>•</span>
-                <span style={{ 
-                  background: isDarkMode ? 'rgba(255, 255, 255, 0.08)' : 'rgba(15, 23, 42, 0.05)', 
-                  color: isDarkMode ? '#38bdf8' : '#0369a1',
-                  padding: '0.1rem 0.4rem', 
-                  borderRadius: '4px', 
-                  fontSize: '0.65rem', 
-                  fontWeight: 700, 
-                  letterSpacing: '0.02em',
-                  border: isDarkMode ? '1px solid rgba(255, 255, 255, 0.12)' : '1px solid rgba(0, 0, 0, 0.08)' 
-                }}>
-                  Ollama: llama3.2
-                </span>
               </p>
             </div>
           </div>

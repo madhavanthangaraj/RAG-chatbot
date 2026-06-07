@@ -1047,3 +1047,140 @@
 {"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 22:02:06"}
 {"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\antigravity\\chatbot.sqlite","timestamp":"2026-06-06 22:09:15"}
 {"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 22:09:15"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\antigravity\\chatbot.sqlite","timestamp":"2026-06-06 22:16:22"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-06 22:16:22"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\antigravity\\chatbot.sqlite","timestamp":"2026-06-07 14:43:45"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-07 14:43:45"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 669 - 273.362 ms","timestamp":"2026-06-07 14:44:34"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 13.211 ms","timestamp":"2026-06-07 14:44:38"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.552 ms","timestamp":"2026-06-07 14:44:38"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-07 14:44:42"}
+{"level":"info","message":"::1 - POST /api/tickets 201 618 - 26.256 ms","timestamp":"2026-06-07 14:44:45"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 2.768 ms","timestamp":"2026-06-07 14:44:46"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 916 - 8144.693 ms","timestamp":"2026-06-07 14:44:50"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 4537 - 5.554 ms","timestamp":"2026-06-07 14:44:50"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=dd5faab9-223b-4eb9-9a5f-565d2837c426 200 1097 - 6.636 ms","timestamp":"2026-06-07 14:44:50"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-07 14:45:12"}
+{"level":"info","message":"::1 - POST /api/tickets 201 662 - 172.428 ms","timestamp":"2026-06-07 14:45:58"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 4.157 ms","timestamp":"2026-06-07 14:45:59"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 933 - 51267.043 ms","timestamp":"2026-06-07 14:46:03"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38686 - 25.236 ms","timestamp":"2026-06-07 14:46:10"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 5.286 ms","timestamp":"2026-06-07 14:46:10"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2710 - 46.907 ms","timestamp":"2026-06-07 14:46:10"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 19.842 ms","timestamp":"2026-06-07 14:46:10"}
+{"level":"info","message":"::1 - GET /api/kb/articles/c595b580-0613-445c-8c82-62c469dab7b2/versions 304 - - 26.856 ms","timestamp":"2026-06-07 14:46:13"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 6.301 ms","timestamp":"2026-06-07 14:46:17"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.129 ms","timestamp":"2026-06-07 14:46:17"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-07 14:46:19"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 14.545 ms","timestamp":"2026-06-07 14:46:24"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 2.952 ms","timestamp":"2026-06-07 14:46:24"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2710 - 34.134 ms","timestamp":"2026-06-07 14:46:24"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 11.407 ms","timestamp":"2026-06-07 14:46:24"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 4.028 ms","timestamp":"2026-06-07 14:46:26"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 142.792 ms","timestamp":"2026-06-07 14:46:26"}
+{"level":"info","message":"::1 - GET /api/kb/articles/501954cb-5013-4b6d-91a3-89884e25071c/versions 200 1149 - 32.206 ms","timestamp":"2026-06-07 14:46:33"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 4682 - 382.888 ms","timestamp":"2026-06-07 14:46:39"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 415.742 ms","timestamp":"2026-06-07 14:46:40"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=223093ee-7004-4e22-ab50-c4354d54be60 200 304 - 107.143 ms","timestamp":"2026-06-07 14:46:42"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1129 - 27293.295 ms","timestamp":"2026-06-07 14:46:47"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 10.619 ms","timestamp":"2026-06-07 14:46:47"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-07 14:46:55"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1173 - 8081.598 ms","timestamp":"2026-06-07 14:47:03"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-07 14:47:18"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1129 - 12328.386 ms","timestamp":"2026-06-07 14:47:31"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\antigravity\\chatbot.sqlite","timestamp":"2026-06-07 14:53:32"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-07 14:53:32"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 230.467 ms","timestamp":"2026-06-07 14:54:30"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 673 - 273.369 ms","timestamp":"2026-06-07 14:55:04"}
+{"level":"info","message":"::1 - POST /api/auth/logout 200 56 - 12.316 ms","timestamp":"2026-06-07 14:55:10"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\antigravity\\chatbot.sqlite","timestamp":"2026-06-07 15:11:12"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-07 15:11:12"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 669 - 304.646 ms","timestamp":"2026-06-07 15:19:19"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\antigravity\\chatbot.sqlite","timestamp":"2026-06-07 15:21:37"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-07 15:21:37"}
+{"level":"info","message":"::1 - POST /api/auth/logout 200 56 - 56.809 ms","timestamp":"2026-06-07 15:24:14"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 669 - 226.255 ms","timestamp":"2026-06-07 15:24:47"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 94.110 ms","timestamp":"2026-06-07 15:24:50"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.313 ms","timestamp":"2026-06-07 15:24:50"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.866 ms","timestamp":"2026-06-07 15:27:06"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-07 15:27:12"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 4827 - 11.490 ms","timestamp":"2026-06-07 15:27:15"}
+{"level":"info","message":"::1 - POST /api/tickets 201 610 - 51.174 ms","timestamp":"2026-06-07 15:27:22"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 2.923 ms","timestamp":"2026-06-07 15:27:22"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.780 ms","timestamp":"2026-06-07 15:27:24"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.888 ms","timestamp":"2026-06-07 15:27:24"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-07 15:27:30"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 866 - 31001.784 ms","timestamp":"2026-06-07 15:27:43"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 4972 - 36.036 ms","timestamp":"2026-06-07 15:27:43"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 823 - 15640.388 ms","timestamp":"2026-06-07 15:27:45"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 15.062 ms","timestamp":"2026-06-07 15:27:45"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=7eb82962-e4ac-4a22-b074-b9a5de4ccd87 200 1022 - 5.904 ms","timestamp":"2026-06-07 15:27:45"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-07 15:29:34"}
+{"level":"info","message":"::1 - POST /api/tickets 201 614 - 83.886 ms","timestamp":"2026-06-07 15:30:33"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 2.376 ms","timestamp":"2026-06-07 15:30:34"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 799 - 77064.639 ms","timestamp":"2026-06-07 15:30:51"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\antigravity\\chatbot.sqlite","timestamp":"2026-06-07 15:32:14"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-07 15:32:14"}
+{"level":"info","message":"::1 - POST /api/auth/login 200 669 - 242.947 ms","timestamp":"2026-06-07 15:32:48"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 14.488 ms","timestamp":"2026-06-07 15:32:53"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.355 ms","timestamp":"2026-06-07 15:32:53"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-07 15:32:56"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-07 15:32:56"}
+{"level":"warn","message":"AI Service connection failed: AI Service unreachable. Falling back to local RAG.. Falling back to local RAG search.","timestamp":"2026-06-07 15:32:56"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 674 - 236.508 ms","timestamp":"2026-06-07 15:32:56"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 5117 - 4.467 ms","timestamp":"2026-06-07 15:32:56"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=2bba7f45-d8e1-4191-aeab-e999a4123515 200 851 - 6.654 ms","timestamp":"2026-06-07 15:32:56"}
+{"level":"info","message":"::1 - GET /api/kb/articles 200 38689 - 4.644 ms","timestamp":"2026-06-07 15:33:06"}
+{"level":"info","message":"::1 - GET /api/kb/articles 304 - - 7.459 ms","timestamp":"2026-06-07 15:33:06"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 200 2713 - 24.226 ms","timestamp":"2026-06-07 15:33:06"}
+{"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 14.653 ms","timestamp":"2026-06-07 15:33:06"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 13406 - 7.460 ms","timestamp":"2026-06-07 15:33:11"}
+{"level":"info","message":"::1 - GET /api/tickets? 304 - - 6.580 ms","timestamp":"2026-06-07 15:33:11"}
+{"level":"info","message":"::1 - GET /api/tickets/1402da46-df8d-447c-b444-4e65e306d060 200 1006 - 15.043 ms","timestamp":"2026-06-07 15:33:13"}
+{"level":"info","message":"::1 - DELETE /api/tickets/1402da46-df8d-447c-b444-4e65e306d060 200 60 - 16.622 ms","timestamp":"2026-06-07 15:33:18"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 12828 - 8.967 ms","timestamp":"2026-06-07 15:33:18"}
+{"level":"info","message":"::1 - GET /api/tickets/525c698e-a3e6-420a-9ab3-29118fe109ec 200 981 - 6.610 ms","timestamp":"2026-06-07 15:33:20"}
+{"level":"info","message":"::1 - DELETE /api/tickets/525c698e-a3e6-420a-9ab3-29118fe109ec 200 60 - 14.091 ms","timestamp":"2026-06-07 15:33:22"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 12273 - 4.791 ms","timestamp":"2026-06-07 15:33:22"}
+{"level":"info","message":"::1 - GET /api/tickets/f7a6d679-4084-4e7f-885e-3ec43a95d47b 200 977 - 9.819 ms","timestamp":"2026-06-07 15:33:23"}
+{"level":"info","message":"::1 - DELETE /api/tickets/f7a6d679-4084-4e7f-885e-3ec43a95d47b 200 60 - 15.555 ms","timestamp":"2026-06-07 15:33:26"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 11722 - 5.557 ms","timestamp":"2026-06-07 15:33:26"}
+{"level":"info","message":"::1 - GET /api/tickets? 304 - - 4.015 ms","timestamp":"2026-06-07 15:35:38"}
+{"level":"info","message":"::1 - DELETE /api/tickets/1b3b00ec-b3b6-4521-b39a-9e57af7d0277 200 60 - 17.479 ms","timestamp":"2026-06-07 15:35:42"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 11119 - 6.260 ms","timestamp":"2026-06-07 15:35:42"}
+{"level":"info","message":"::1 - DELETE /api/tickets/72c7594c-8b3b-4ffd-be6a-b1160a4e98cc 200 60 - 15.591 ms","timestamp":"2026-06-07 15:35:46"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 10560 - 3.989 ms","timestamp":"2026-06-07 15:35:46"}
+{"level":"info","message":"::1 - DELETE /api/tickets/e5d221af-8c64-459f-8351-127602c4ea3d 200 60 - 25.779 ms","timestamp":"2026-06-07 15:35:48"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 9997 - 5.916 ms","timestamp":"2026-06-07 15:35:48"}
+{"level":"info","message":"::1 - DELETE /api/tickets/22b9b7bb-a748-4f80-8faf-745629541144 200 60 - 14.640 ms","timestamp":"2026-06-07 15:35:52"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 9424 - 3.883 ms","timestamp":"2026-06-07 15:35:52"}
+{"level":"info","message":"::1 - DELETE /api/tickets/93c22c7b-cd7b-426e-8983-1d133fe86da3 200 60 - 18.008 ms","timestamp":"2026-06-07 15:35:55"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 8873 - 4.513 ms","timestamp":"2026-06-07 15:35:55"}
+{"level":"info","message":"::1 - DELETE /api/tickets/7ee8ca49-20fb-41e7-b5e4-6f0a6c603e79 200 60 - 55.817 ms","timestamp":"2026-06-07 15:35:59"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 8217 - 5.884 ms","timestamp":"2026-06-07 15:35:59"}
+{"level":"info","message":"::1 - DELETE /api/tickets/06481b5c-986e-4f6e-bf4a-37f251773127 200 60 - 19.962 ms","timestamp":"2026-06-07 15:36:01"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 7561 - 7.416 ms","timestamp":"2026-06-07 15:36:01"}
+{"level":"info","message":"::1 - DELETE /api/tickets/d325c6a4-010e-4ad9-9ea7-0cd0b6e598bd 200 60 - 14.105 ms","timestamp":"2026-06-07 15:36:05"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 6917 - 7.594 ms","timestamp":"2026-06-07 15:36:05"}
+{"level":"info","message":"::1 - DELETE /api/tickets/7ed0408a-84b8-4727-9d6e-3ac7adf84dd9 200 60 - 17.443 ms","timestamp":"2026-06-07 15:36:06"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 6335 - 4.651 ms","timestamp":"2026-06-07 15:36:06"}
+{"level":"info","message":"::1 - DELETE /api/tickets/36d3c0ba-faae-4bdf-b429-808d3db3e7ff 200 60 - 15.137 ms","timestamp":"2026-06-07 15:36:08"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 5770 - 6.369 ms","timestamp":"2026-06-07 15:36:08"}
+{"level":"info","message":"::1 - DELETE /api/tickets/8dabd533-1d29-4f3d-9a5f-2c635fcb1eb8 200 60 - 68.699 ms","timestamp":"2026-06-07 15:36:09"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 5218 - 4.153 ms","timestamp":"2026-06-07 15:36:09"}
+{"level":"info","message":"::1 - DELETE /api/tickets/4f9cdfe2-c642-4611-96ab-0b090fe05b73 200 60 - 17.091 ms","timestamp":"2026-06-07 15:36:10"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 4667 - 5.460 ms","timestamp":"2026-06-07 15:36:10"}
+{"level":"info","message":"::1 - DELETE /api/tickets/27845e0d-614b-49b7-b27f-bade52e8e5dc 200 60 - 86.396 ms","timestamp":"2026-06-07 15:36:12"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 4100 - 7.184 ms","timestamp":"2026-06-07 15:36:12"}
+{"level":"info","message":"::1 - DELETE /api/tickets/b1d3fed5-1174-42a3-b16e-a8a71d42995e 200 60 - 18.251 ms","timestamp":"2026-06-07 15:36:14"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 3527 - 4.814 ms","timestamp":"2026-06-07 15:36:14"}
+{"level":"info","message":"::1 - DELETE /api/tickets/3102c797-7e9c-4f0e-8453-a6d194a68e2a 200 60 - 15.973 ms","timestamp":"2026-06-07 15:36:18"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 2945 - 4.079 ms","timestamp":"2026-06-07 15:36:18"}
+{"level":"info","message":"::1 - DELETE /api/tickets/57e620c3-ba05-41c9-bdf8-ac6abe625b8f 200 60 - 40.791 ms","timestamp":"2026-06-07 15:36:22"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 2329 - 5.693 ms","timestamp":"2026-06-07 15:36:22"}
+{"level":"info","message":"::1 - DELETE /api/tickets/a13c449a-a80e-40a4-a114-f237dd05c36b 200 60 - 15.182 ms","timestamp":"2026-06-07 15:36:23"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 1778 - 3.945 ms","timestamp":"2026-06-07 15:36:23"}
+{"level":"info","message":"::1 - DELETE /api/tickets/8662df27-58bf-40e6-a655-66832f047dae 200 60 - 16.828 ms","timestamp":"2026-06-07 15:36:24"}
+{"level":"info","message":"::1 - GET /api/tickets? 200 1159 - 4.811 ms","timestamp":"2026-06-07 15:36:24"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\antigravity\\chatbot.sqlite","timestamp":"2026-06-07 15:37:12"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-07 15:37:12"}

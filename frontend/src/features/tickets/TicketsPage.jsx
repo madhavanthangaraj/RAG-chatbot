@@ -272,13 +272,45 @@ export default function TicketsPage() {
                     {t.description}
                   </p>
                   
-                  <div style={{ display: 'flex', gap: '0.5rem', fontSize: '0.7rem' }}>
-                    <span style={{ padding: '0.2rem 0.5rem', borderRadius: '4px', textTransform: 'uppercase', fontWeight: 700, ...getPriorityStyle(t.priority) }}>
-                      {t.priority}
-                    </span>
-                    <span style={{ padding: '0.2rem 0.5rem', borderRadius: '4px', textTransform: 'uppercase', fontWeight: 700, ...getStatusStyle(t.status) }}>
-                      {t.status}
-                    </span>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', marginTop: 'auto' }}>
+                    <div style={{ display: 'flex', gap: '0.5rem', fontSize: '0.7rem' }}>
+                      <span style={{ padding: '0.2rem 0.5rem', borderRadius: '4px', textTransform: 'uppercase', fontWeight: 700, ...getPriorityStyle(t.priority) }}>
+                        {t.priority}
+                      </span>
+                      <span style={{ padding: '0.2rem 0.5rem', borderRadius: '4px', textTransform: 'uppercase', fontWeight: 700, ...getStatusStyle(t.status) }}>
+                        {t.status}
+                      </span>
+                    </div>
+
+                    {(user.role !== 'user' || t.user_id === user.id) && (
+                      <div
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleDeleteTicket(t.id);
+                        }}
+                        style={{
+                          color: 'rgba(239, 68, 68, 0.6)',
+                          cursor: 'pointer',
+                          padding: '0.25rem',
+                          borderRadius: '4px',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          transition: 'color 0.2s ease, background 0.2s ease'
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.color = 'var(--error-color)';
+                          e.currentTarget.style.background = 'rgba(239, 68, 68, 0.1)';
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.color = 'rgba(239, 68, 68, 0.6)';
+                          e.currentTarget.style.background = 'none';
+                        }}
+                        title="Delete Support Ticket"
+                      >
+                        <Trash2 size={14} />
+                      </div>
+                    )}
                   </div>
                 </button>
               ))

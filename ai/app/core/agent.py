@@ -260,7 +260,7 @@ Answer:
                     
                     generation = await ollama_client.generate_chat_completion(messages, temperature=0.2)
                     reply = generation.get("content", "").strip()
-                    reply += f"\n\n🤖 *Response processed by local Ollama AI (Model: llama3.2)*"
+                    reply += f"\n\n🤖 *Response processed*"
                     
                     # Store citation reference
                     citations.append({
@@ -303,7 +303,7 @@ Answer:
 
             reply = ollama_reply
             reply += f"\n\n📝 A support ticket has been automatically created and assigned to the appropriate support team for further investigation. Our team will review your request and respond as soon as possible.\n\nThank you for your patience."
-            reply += f"\n\n🤖 *Response processed by local Ollama AI (Model: llama3.2)*"
+            reply += f"\n\n🤖 *Response processed*"
             
             suggested_followups = [
                 "Track my escalated ticket status",

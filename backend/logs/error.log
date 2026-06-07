@@ -64,3 +64,4 @@
 {"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-06 21:11:55"}
 {"level":"error","message":"401 - Invalid email or password - /api/auth/login - POST - ::1","timestamp":"2026-06-06 21:20:47"}
 {"level":"error","message":"401 - Invalid email or password - /api/auth/login - POST - ::1","timestamp":"2026-06-06 21:39:44"}
+{"level":"error","message":"AI Service connection failed: fetch failed","timestamp":"2026-06-07 15:32:56"}

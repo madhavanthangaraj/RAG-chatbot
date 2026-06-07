@@ -8,14 +8,17 @@ import ChatPage from './features/chat/ChatPage';
 import AnalyticsPage from './features/analytics/AnalyticsPage';
 import TicketsPage from './features/tickets/TicketsPage';
 import KnowledgeBasePage from './features/kb/KnowledgeBasePage';
+import LandingPage from './features/landing/LandingPage';
+
 export default function App() {
   return (
     <ThemeProvider>
       <AuthProvider>
         <Router>
           <Routes>
-            <Route path="/" element={<Navigate to="/login" replace />} />
+            <Route path="/" element={<LandingPage />} />
             <Route path="/login" element={<AuthPage />} />
+
             <Route path="/auth" element={<Navigate to="/login" replace />} />
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/chat" element={<ChatPage />} />
