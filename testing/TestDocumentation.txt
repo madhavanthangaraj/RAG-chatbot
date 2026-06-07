@@ -1,0 +1,257 @@
+# Testing Documentation
+
+## Project: L0 Self-Service Knowledge Base Chatbot
+
+This document describes the automated testing strategy implemented for the project. The testing suite validates the AI engine, backend fallback mechanisms, and frontend user interface behavior to ensure reliability, accuracy, and maintainability across the entire application stack.
+
+---
+
+# 1. Python AI Core Tests (Pytest)
+
+### Command
+
+```bash
+python -m pytest testing
+```
+
+### Purpose
+
+The Python AI service is responsible for natural language processing, query understanding, typo correction, retrieval augmentation, and article ranking.
+
+These tests ensure that the AI engine consistently produces accurate results and prevents unintended modifications to user queries.
+
+### Validations Performed
+
+#### Levenshtein Distance Validation
+
+Verifies that edit-distance calculations correctly measure character insertions, deletions, and substitutions.
+
+Examples:
+
+* password → passwrod
+* feedback → feedbak
+
+This ensures typo detection behaves predictably.
+
+#### Typo Tolerance Thresholds
+
+Ensures typo correction remains controlled and does not over-correct user input.
+
+Rules enforced:
+
+* Words shorter than 4 characters are not modified.
+* Words with 4–5 characters allow only 1 edit.
+* Words longer than 5 characters allow up to 2 edits.
+
+This prevents corruption of common words such as:
+
+* are
+* fee
+* how
+* to
+
+#### Spelling Corrector Accuracy
+
+Validates that user-entered misspellings are restored to known knowledge-base vocabulary.
+
+Example:
+
+Input:
+
+```text
+passward and feesback
+```
+
+Expected Result:
+
+```text
+password and feedback
+```
+
+This ensures knowledge-base searches remain accurate even when users make typing mistakes.
+
+---
+
+# 2. Node.js Backend Fallback Tests
+
+### Command
+
+```bash
+node testing/test_backend_happy_path.js
+```
+
+### Purpose
+
+The application contains a fallback mechanism that activates when the FastAPI AI service becomes unavailable.
+
+Instead of failing, the Node.js backend performs a local database-driven keyword search to maintain uninterrupted service.
+
+These tests verify that fallback search behavior remains reliable and relevant.
+
+### Validations Performed
+
+#### Title Relevance Boosting
+
+Articles containing exact keyword matches inside their titles receive the highest ranking priority.
+
+Boost Applied:
+
+```text
++10 relevance points
+```
+
+#### Partial Title Match Ranking
+
+Articles containing partial keyword matches within titles receive additional weight.
+
+Boost Applied:
+
+```text
++5 relevance points
+```
+
+#### Content Match Scoring
+
+Keyword matches found within article content receive baseline relevance.
+
+Boost Applied:
+
+```text
++1 relevance point
+```
+
+#### Exact Title Match Enhancement
+
+When all query keywords match title words exactly, an additional ranking bonus is applied.
+
+Boost Applied:
+
+```text
++20 relevance points
+```
+
+#### Relevance Tie-Breaking
+
+When two articles receive identical search scores, results are ordered using the article's effectiveness score.
+
+This ensures higher-quality knowledge-base articles appear first.
+
+#### Stopword Filtering
+
+Common non-informative words are removed before searching.
+
+Examples:
+
+* how
+* to
+* please
+* can
+* you
+
+This improves search precision and ranking quality.
+
+---
+
+# 3. Frontend Tests (Vitest)
+
+### Command
+
+```bash
+cd frontend
+npx vitest run --root=../ testing
+```
+
+### Purpose
+
+Frontend tests validate React component behavior, styling consistency, and repository integration through mocked data.
+
+These tests ensure the user interface behaves correctly without requiring a live backend connection.
+
+### Validations Performed
+
+#### Priority Styling Verification
+
+Confirms ticket priorities correctly map to their visual styles.
+
+Examples:
+
+| Priority | Validation            |
+| -------- | --------------------- |
+| Urgent   | Correct HSL variables |
+| High     | Correct HSL variables |
+| Medium   | Correct HSL variables |
+| Low      | Correct HSL variables |
+
+#### Status Styling Verification
+
+Confirms ticket statuses display the correct styling configuration.
+
+Examples:
+
+| Status      | Validation            |
+| ----------- | --------------------- |
+| Open        | Correct style mapping |
+| In Progress | Correct style mapping |
+| Resolved    | Correct style mapping |
+| Closed      | Correct style mapping |
+
+#### Repository Mock Testing
+
+Uses Vitest mocks and spies to simulate backend repository operations.
+
+Verifies:
+
+* Search functions return expected article arrays.
+* UI components correctly process returned data.
+* Frontend logic remains isolated from database dependencies.
+
+---
+
+# Running the Complete Test Suite
+
+The following command executes all automated tests across the AI service, backend, and frontend.
+
+```bash
+python -m pytest testing; node testing/test_backend_happy_path.js; cd frontend; npx vitest run --root=../ testing
+```
+
+---
+
+# Importance of Testing
+
+## Preventing Regressions
+
+As new features, knowledge-base articles, and UI improvements are introduced, automated testing ensures existing functionality continues to operate correctly.
+
+## Ensuring AI Accuracy
+
+The AI engine is responsible for typo correction, query understanding, and article retrieval. Testing guarantees that search quality remains consistent and reliable.
+
+## Maintaining Fallback Reliability
+
+If the Python AI service becomes unavailable, the Node.js backend fallback search ensures users continue receiving relevant knowledge-base results without interruption.
+
+## Improving User Experience
+
+Testing validates that:
+
+* Search results remain relevant.
+* Ticket creation occurs only when appropriate.
+* Status indicators are displayed correctly.
+* UI styling remains consistent.
+
+## Supporting Production Readiness
+
+A fully tested system reduces operational risk, increases reliability, and demonstrates engineering quality expected in production-grade applications.
+
+---
+
+# Conclusion
+
+The project includes comprehensive automated testing across:
+
+1. AI Query Processing Layer (Python / Pytest)
+2. Backend Fallback Search Layer (Node.js)
+3. Frontend User Interface Layer (React / Vitest)
+
+This testing strategy ensures high accuracy, reliable fallback behavior, consistent user experience, and confidence during future development and deployment activities.
