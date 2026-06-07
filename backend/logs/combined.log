@@ -1434,3 +1434,12 @@
 {"level":"info","message":"::1 - GET /api/analytics/dashboard 304 - - 13.361 ms","timestamp":"2026-06-07 20:24:37"}
 {"level":"info","message":"::1 - GET /api/kb/articles/fade093e-a35e-433f-bc5d-fe3c40b12548/versions 304 - - 7.612 ms","timestamp":"2026-06-07 20:24:51"}
 {"level":"info","message":"::1 - POST /api/auth/logout 200 56 - 11.727 ms","timestamp":"2026-06-07 20:25:33"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\kanna\\OneDrive\\Documents\\RAG\\RAG-chatbot\\chatbot.sqlite","timestamp":"2026-06-07 21:57:50"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-07 21:57:50"}
+{"level":"info","message":"::1 - POST /api/auth/register 201 676 - 115.836 ms","timestamp":"2026-06-07 21:59:38"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 7.552 ms","timestamp":"2026-06-07 21:59:53"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 1.462 ms","timestamp":"2026-06-07 21:59:53"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-07 22:00:20"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 1166 - 11365.495 ms","timestamp":"2026-06-07 22:00:31"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 186 - 12.493 ms","timestamp":"2026-06-07 22:00:31"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=c384eb0a-1283-425d-ba86-5b9d03394821 200 1388 - 4.184 ms","timestamp":"2026-06-07 22:00:31"}
