@@ -52,7 +52,6 @@ class TestAIHappyPath(unittest.TestCase):
         query_with_typo = "how to reset my passward and give feesback"
         corrected_query = self.agent._correct_query_spelling(query_with_typo)
         
-        # Verify corrected terms
         self.assertIn("password", corrected_query.lower())
         self.assertIn("feedback", corrected_query.lower())
         # Stopwords and valid terms shouldn't get corrupted

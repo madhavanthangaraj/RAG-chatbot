@@ -11,4 +11,5 @@ Follow these official instructions to pay your tuition, hostel, or examination f
 5. Complete the payment gateway authorization.
 6. Once payment is processed, you will be redirected to download your **Official Fee Receipt** in PDF format.
 
+
 *Note:* Fees paid via NEFT/IMPS bank transfer may take up to 48 hours to reconcile. Always keep a copy of your receipt.

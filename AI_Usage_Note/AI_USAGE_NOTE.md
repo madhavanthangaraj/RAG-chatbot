@@ -67,11 +67,12 @@ Tasks:
 
 DO NOT GENERATE CODE.
 Only provide architecture and planning.
-Then wait.
-```
-
 ### Why it worked
 
 Forcing the AI to think about the **whole system** before writing a single line of code eliminated the fragmented, patch-work output that kills AI-assisted projects.
 
 Architecture first. Always.
+
+
+
+
