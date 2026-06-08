@@ -9,23 +9,42 @@ This document provides a comprehensive overview of the system architecture, the 
 
 The system is built using a **local-first microservices architecture**. This ensures strong data privacy, zero cloud API costs, and high reliability through fallback mechanisms.
 
-```mermaid
-graph TD
-    User([User / Admin]) -->|HTTP / Web| Frontend[Frontend React + Vite\nPort 5173]
-    
-    Frontend -->|Admin Tasks, Tickets, Auth| Backend[Backend Node.js + Express\nPort 5000]
-    Frontend -->|Chat Queries, AI| AI_Service[AI Service Python + FastAPI\nPort 8000]
-    
-    Backend -->|Read/Write| SQLite[(SQLite Database\nchatbot.sqlite)]
-    
-    AI_Service -->|Read Articles| SQLite
-    AI_Service <-->|Embeddings & Retrieval| FAISS[(FAISS Vector DB\nai/data/faiss_index)]
-    AI_Service <-->|Prompt & Response| Ollama[Local Runtime Engine\nOllama Llama 3.2\nPort 11434]
-    
-    Backend -.->|Fallback Keyword Search| SQLite
-```
 
----
+                    ┌─────────────────────┐
+                    │       User          │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │      Frontend       │
+                    │ React + Vite        │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │      Backend        │
+                    │ Node.js + Express   │
+                    └──────────┬──────────┘
+                               │
+              ┌────────────────┴───────────────┐
+              ▼                                ▼
+
+    ┌──────────────────┐           ┌──────────────────┐
+    │ Processing       │           │ SQLite Database  │
+    │ Service          │           │ chatbot.sqlite   │
+    │ FastAPI          │           └──────────────────┘
+    └─────────┬────────┘
+              │
+              ▼
+    ┌──────────────────┐
+    │ Local Runtime    │
+    │ Engine           │
+    └─────────┬────────┘
+              │
+              ▼
+    ┌──────────────────┐
+    │ FAISS Vector DB  │
+    └──────────────────┘
 
 ## 🧩 2. Component Responsibilities
 
@@ -93,3 +112,5 @@ If the Python AI service crashes or Ollama is offline:
 3. Frontend automatically reroutes the query to the **Node.js Backend**.
 4. The Backend performs a standard `LIKE %keyword%` SQL query on the `chatbot.sqlite` database.
 5. The Backend returns the closest matching articles directly to the user, ensuring the self-service portal remains functional.
+
+

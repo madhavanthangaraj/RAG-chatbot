@@ -1443,3 +1443,16 @@
 {"level":"info","message":"::1 - POST /api/chat/message 200 1166 - 11365.495 ms","timestamp":"2026-06-07 22:00:31"}
 {"level":"info","message":"::1 - GET /api/chat/conversations 200 186 - 12.493 ms","timestamp":"2026-06-07 22:00:31"}
 {"level":"info","message":"::1 - GET /api/chat/history?conversationId=c384eb0a-1283-425d-ba86-5b9d03394821 200 1388 - 4.184 ms","timestamp":"2026-06-07 22:00:31"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\antigravity\\chatbot.sqlite","timestamp":"2026-06-08 09:33:04"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-08 09:33:04"}
+{"level":"info","message":"::1 - POST /api/auth/register 201 672 - 304.111 ms","timestamp":"2026-06-08 09:34:06"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 14.819 ms","timestamp":"2026-06-08 09:34:11"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 304 - - 5.126 ms","timestamp":"2026-06-08 09:34:11"}
+{"level":"info","message":"Forwarding query to AI Service Agent Loop: http://localhost:8000/api/agent/query","timestamp":"2026-06-08 09:34:14"}
+{"level":"info","message":"::1 - POST /api/tickets 201 612 - 35.144 ms","timestamp":"2026-06-08 09:34:23"}
+{"level":"info","message":"::1 - POST /api/notifications/discord 404 165 - 3.365 ms","timestamp":"2026-06-08 09:34:24"}
+{"level":"info","message":"::1 - POST /api/chat/message 200 674 - 42046.733 ms","timestamp":"2026-06-08 09:34:56"}
+{"level":"info","message":"::1 - GET /api/chat/conversations 200 186 - 33.245 ms","timestamp":"2026-06-08 09:34:57"}
+{"level":"info","message":"::1 - GET /api/chat/history?conversationId=9d32348e-118f-46e8-9401-01c34e0bd432 200 851 - 6.563 ms","timestamp":"2026-06-08 09:34:57"}
+{"level":"info","message":"Connected to SQLite database at C:\\Users\\HP\\Desktop\\antigravity\\chatbot.sqlite","timestamp":"2026-06-08 10:15:35"}
+{"level":"info","message":"Database schema checked/initialized successfully.","timestamp":"2026-06-08 10:15:35"}

@@ -1,0 +1,140 @@
+query,reply,confidence_score,citations,suggested_followups,escalated
+how to reset password,"# Reset Student Password Guide
+
+To reset your ERP Student Portal password, please follow these steps:
+1. Navigate to the portal login page at [ERP Portal Login](http://localhost:3000/login).
+2. Click on the **'Forgot Password'** link located below the login button.
+3. Enter your Registered Student Email ID or Student Roll Number.
+4. Check your inbox for the password reset link.
+5. Click the link and enter your new password (must be at least 8 characters and include 1 number and 1 special character).
+
+If you do not receive the email, check your Spam folder or contact the IT Helpdesk at helpdesk@university.edu.
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""a4d8c7c9-4e78-4355-8c01-bfdf5718a36c"", ""title"": ""Reset Student Password Guide"", ""snippet"": ""# Reset Student Password Guide\n\nTo reset your ERP Student Portal password, please follow these steps:\n1. Navigate to the portal login page at [ERP Portal Login](http://localhost:3000/login)...""}]","[""What should I do if I don't receive the password reset email?"", ""Where is the IT Helpdesk located?""]",false
+how to pay fees,"# Instructions to Pay Student Fees
+
+Follow these official instructions to pay your tuition, hostel, or examination fees online:
+1. Access the Student Portal and navigate to the **'Fee Payment Hub'**.
+2. Review your pending dues statement shown on the dashboard.
+3. Click on the **'Pay Outstanding Balance'** button.
+4. Select your preferred payment mode:
+   - *UPI* (Instant & No Transaction Charge)
+   - *Net Banking* (All major banks supported)
+   - *Credit/Debit Card* (1% transaction fee applies)
+5. Complete the payment gateway authorization.
+6. Once payment is processed, you will be redirected to download your **Official Fee Receipt** in PDF format.
+
+*Note:* Fees paid via NEFT/IMPS bank transfer may take up to 48 hours to reconcile. Always keep a copy of your receipt.
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""b3f6d8d9-2d67-4632-aa78-dfdf3412b19d"", ""title"": ""Instructions to Pay Student Fees"", ""snippet"": ""# Instructions to Pay Student Fees\n\nFollow these official instructions to pay your tuition, hostel, or examination fees online:\n1. Access the Student Portal and navigate to the **'Fee Payment Hub'**...""}]","[""How long does it take for NEFT payments to reflect?"", ""Can I download my fee receipt later?""]",false
+suggestions on hostel,"# Submitting Feedback & Suggestions
+
+We value your feedback to improve academic and campus facilities.
+To submit feedback or suggestions:
+1. Log in to the Student Portal and open the **'Feedback Center'**.
+2. Choose a category for your feedback:
+   - *Facilities*: Hostel rooms, Mess food, Gym, or Library.
+3. Write a clear description and attach screenshots/documents if relevant.
+
+Your feedback will be routed to the respective department head for review.
+
+🤖 *Response processed*",0.9,"[{""article_id"": ""c5e9d8e1-5e78-4355-8c01-bfdf5718a36d"", ""title"": ""Submitting Feedback & Suggestions"", ""snippet"": ""# Submitting Feedback & Suggestions\n\nWe value your feedback to improve academic and campus facilities...""}]","[""How to file a maintenance request?"", ""Who handles hostel complaints?""]",false
+hostel room booking rules,"# Hostel Room Allotment Rules
+
+Hostel room allotment occurs annually before the odd semester begins:
+1. Registration opens on the portal 30 days prior to semester start.
+2. Allotment is done based on academic GPA and distance from home.
+3. Room preference list (Single, Double, Triple sharing) can be submitted.
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""d6f8c2b1-6a12-4f32-bb90-dfdf3412e10a"", ""title"": ""Hostel Room Allotment Rules"", ""snippet"": ""# Hostel Room Allotment Rules\n\nHostel room allotment occurs annually before the odd semester begins...""}]","[""When does hostel room allotment start?"", ""What documents are required for hostel check-in?""]",false
+how many books can I borrow from library,"# Library Book Issuing Policy
+
+Students can borrow books from the Central Library under these terms:
+1. Undergraduates: Max 4 books for 14 days.
+2. Postgraduates: Max 6 books for 30 days.
+3. Books can be renewed online once before the due date if not reserved by others.
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""e7b8d9c2-7b23-4f56-bb91-efef3412f10b"", ""title"": ""Library Book Issuing Policy"", ""snippet"": ""# Library Book Issuing Policy\n\nStudents can borrow books from the Central Library under these terms...""}]","[""What is the library overdue fine?"", ""How to renew library books online?""]",false
+how to drop a course,"# Course Add/Drop Procedure
+
+To add or drop courses in your current semester:
+1. Go to the Student Portal -> **'Academic Registration'**.
+2. Click **'Modify Courses'** during the first week of classes.
+3. Selected courses must not conflict in timetable slots.
+4. Maximum credit limits per semester must not be exceeded.
+5. Advisor approval is mandatory to finalize the modified schedule.
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""f8c9e0d3-8c34-4f67-cc92-ffbf3412a10c"", ""title"": ""Course Add/Drop Procedure"", ""snippet"": ""# Course Add/Drop Procedure\n\nTo add or drop courses in your current semester...""}]","[""What is the last date to add/drop courses?"", ""Do I need advisor approval to drop a course?""]",false
+apply for official transcript,"# Official Transcript Request Guide
+
+To request your official academic transcripts:
+1. Open the Student Portal and navigate to **'Documents & Certificates'**.
+2. Select **'Request Official Transcript'**.
+3. Specify the number of copies required.
+4. Pay the transcript fee ($10 per copy) via the portal payment gateway.
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""a9d0f1e4-9d45-4f78-dd93-aac3412b10d"", ""title"": ""Official Transcript Request Guide"", ""snippet"": ""# Official Transcript Request Guide\n\nTo request your official academic transcripts...""}]","[""How much does the transcript cost?"", ""How long does transcript processing take?""]",false
+how to connect to campus wifi,"# Campus Wi-Fi Connectivity Guide
+
+Connect to the secure campus Wi-Fi network using these steps:
+1. Enable Wi-Fi on your device and select the SSID: **'UniSecure-WiFi'**.
+2. Enter your student portal username and password on the prompt.
+3. Trust the network security certificate if prompted.
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""b0e1a2f5-0e56-4f89-ee94-bbc3412c10e"", ""title"": ""Campus Wi-Fi Connectivity Guide"", ""snippet"": ""# Campus Wi-Fi Connectivity Guide\n\nConnect to the secure campus Wi-Fi network using these steps...""}]","[""What is the university Wi-Fi password?"", ""How to register my laptop MAC address?""]",false
+lost my student id card,"# Student ID Card Replacement
+
+If your Student ID card is lost, damaged, or stolen:
+1. File a report with Campus Security immediately.
+2. Log in to the Student Portal and apply for a **'Duplicate ID Card'**.
+3. Pay the replacement fee of $15 online.
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""c1f2b3a6-1f67-4f90-ff95-ccd3412d10f"", ""title"": ""Student ID Card Replacement"", ""snippet"": ""# Student ID Card Replacement\n\nIf your Student ID card is lost, damaged, or stolen...""}]","[""Where is the ID Card issuance office?"", ""How much is the duplicate ID card fee?""]",false
+apply for merit scholarship,"# Scholarship Application Guidelines
+
+Apply for university scholarships to support your tuition fees:
+1. Check eligibility criteria on the **'Scholarships & Aid'** page.
+2. Obtain necessary certificates: Income statement, Marksheets, and Category certificate.
+3. Fill the online application form before the portal closes.
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""d2a3c4b7-2f78-4fa1-aa96-dde3412e11a"", ""title"": ""Scholarship Application Guidelines"", ""snippet"": ""# Scholarship Application Guidelines\n\nApply for university scholarships to support your tuition fees...""}]","[""What documents are needed for scholarship?"", ""When is the scholarship application deadline?""]",false
+where is my exam hall ticket,"# Exam Hall Ticket Download
+
+Retrieve and print your hall ticket for end-semester examinations:
+1. Navigate to Student Portal -> **'Examinations'** -> **'Hall Ticket'**.
+2. Verify your registered courses, exam dates, and seat numbers.
+3. Click **'Download Hall Ticket PDF'** and print a physical copy.
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""e3b4d5c8-3f89-4fb2-bb97-eef3412f11b"", ""title"": ""Exam Hall Ticket Download"", ""snippet"": ""# Exam Hall Ticket Download\n\nRetrieve and print your hall ticket for end-semester examinations...""}]","[""What to do if there is an error on my hall ticket?"", ""Do I need to print my hall ticket in color?""]",false
+is there a medical room on campus,"# Medical Room & Emergency Services
+
+The campus provides medical assistance at the health center:
+1. Location: Ground Floor, Hostel Block D.
+2. Timings: 24/7 emergency service. General doctor hours: 9 AM to 6 PM.
+3. Contact the emergency helpline at **+1-555-0199** for ambulance service.
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""f4c5e6d9-4f90-4fc3-cc98-ffa3412a11c"", ""title"": ""Medical Room & Emergency Services"", ""snippet"": ""# Medical Room & Emergency Services\n\nThe campus provides medical assistance at the health center...""}]","[""What are the doctor consultation hours?"", ""Who to contact in case of a medical emergency?""]",false
+mess timing and menu,"# Hostel Mess Menu & Timing
+
+The hostel mess operates during the following slots:
+- *Breakfast*: 7:30 AM to 9:00 AM
+- *Lunch*: 12:30 PM to 2:00 PM
+- *High Tea*: 5:00 PM to 6:00 PM
+- *Dinner*: 7:30 PM to 9:00 PM
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""a5d6f7e0-5f01-4fd4-dd99-aab3412b11d"", ""title"": ""Hostel Mess Menu & Timing"", ""snippet"": ""# Hostel Mess Menu & Timing\n\nThe hostel mess operates during the following slots...""}]","[""How to submit mess food feedback?"", ""Can I change my mess card group?""]",false
+sports complex timings,"# Gym and Sports Complex Access
+
+Students can access the Indoor Sports Complex and Gym:
+1. Gym timings: Morning 6:00 AM - 9:00 AM, Evening 4:00 PM - 9:00 PM.
+2. Sports complex timings: 6:00 AM - 10:00 PM daily.
+3. Gym membership fee: $20 per semester (register via the portal).
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""b6e7a8f1-6f12-4fe5-ee00-bbc3412c11e"", ""title"": ""Gym and Sports Complex Access"", ""snippet"": ""# Gym and Sports Complex Access\n\nStudents can access the Indoor Sports Complex and Gym...""}]","[""How to book the badminton court?"", ""Is gym membership free for students?""]",false
+register vehicle for parking,"# Student Parking Pass Registration
+
+Register your vehicle to obtain a campus parking pass:
+1. Go to Student Portal -> **'Vehicle Registration'**.
+2. Provide details: Vehicle Make, Model, License Plate, and Owner.
+
+🤖 *Response processed*",1.0,"[{""article_id"": ""c7f8b9a2-7f23-4ff6-ff01-ccd3412d11f"", ""title"": ""Student Parking Pass Registration"", ""snippet"": ""# Student Parking Pass Registration\n\nRegister your vehicle to obtain a campus parking pass...""}]","[""Where are the student parking zones?"", ""Is there a parking fee for two-wheelers?""]",false
